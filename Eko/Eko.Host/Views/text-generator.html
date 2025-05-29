@@ -1,0 +1,1102 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Text Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/favicon.svg">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/icomoon.css">
+    <link rel="stylesheet" href="assets/css/vendor/remixicon.css">
+    <link rel="stylesheet" href="assets/css/vendor/spacing.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <!-- preloader start -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="bd-preloader-content">
+                    <div class="bd-preloader-logo">
+                        <div class="bd-preloader-circle">
+                            <svg width="190" height="190" viewBox="0 0 380 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle stroke="#F5F5F5" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round">
+                                </circle>
+                                <circle stroke="red" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round">
+                                </circle>
+                            </svg>
+                        </div>
+                        <img src="assets/images/logo/preloader-icon.webp" alt="">
+                    </div>
+                    <p class="bd-preloader-subtitle">EkoAI</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- Offcanvas area start -->
+    <div class="fix">
+        <div class="bd-offcanvas-area">
+            <div class="bd-offcanvas-wrapper">
+                <div class="bd-offcanvas-content">
+                    <div class="bd-offcanvas-top d-flex justify-between align-center mb-30">
+                        <div class="bd-offcanvas-logo">
+                            <a class="bd-header-dark-logo" href="index.html">
+                                <img src="assets/images/logo/logo-white.svg" alt="image">
+                            </a>
+                            <a class="bd-header-light-logo" href="index.html">
+                                <img src="assets/images/logo/logo-black.svg" alt="image">
+                            </a>
+                        </div>
+                        <div class="bd-offcanvas-close">
+                            <button class="bd-offcanvas-close-icon animation--flip">
+                                <span class="bd-offcanvas-m-lines">
+                                <span class="bd-offcanvas-m-line line--1"></span><span
+                                    class="bd-offcanvas-m-line line--2"></span><span
+                                    class="bd-offcanvas-m-line line--3"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bd-offcanvas-search mb-30">
+                        <form action="#">
+                            <input type="text" name="bd-offcanvasSearch" placeholder="Search Keyword">
+                            <button type="submit"><i class="icon-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <div class="bd-mobile-menu">
+                        <div class="bd-offcanvas-menu mb-30">
+                            <nav></nav>
+                        </div>
+                    </div>
+                    <div class="bd-offcanvas-about mb-30">
+                        <h4 class="bd-offcanvas-title-meta">About EkoAI</h4>
+                        <p>EkoAI pioneers AI-driven solutions, empowering businesses with intelligent automation and
+                            innovation.</p>
+                    </div>
+                    <div class="bd-offcanvas-contact mb-30">
+                        <h4 class="bd-offcanvas-title-meta">Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-center gap-10">
+                                <div class="bd-offcanvas-contact-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="icon-phone"></i></a>
+                                </div>
+                                <div class="bd-offcanvas-contact-text">
+                                    <a target="_blank" href="#">123 Knowledge Lane, Learnville, 54321, USA</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-center gap-10">
+                                <div class="bd-offcanvas-contact-icon">
+                                    <a href="tel:+1234567890"><i class="icon-phone"></i></a>
+                                </div>
+                                <div class="bd-offcanvas-contact-text">
+                                    <a href="tel:+1234567890">+1-234-567-890</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-center gap-10">
+                                <div class="bd-offcanvas-contact-icon">
+                                    <a href="https://html.bdevs.net/cdn-cgi/l/email-protection#0a63646c654a6f61656b6324696567"><i class="icon-envelope"></i></a>
+                                </div>
+                                <div class="bd-offcanvas-contact-text">
+                                    <a href="https://html.bdevs.net/cdn-cgi/l/email-protection#a6cfc8c0c9e6c3cdc9c7cf88c5c9cb"><span class="__cf_email__" data-cfemail="442d2a222b04212f2b252d6a272b29">[email&#160;protected]</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bd-offcanvas-btn-wrap mb-30">
+                        <h4 class="bd-offcanvas-title-meta">Account</h4>
+                        <div class="bd-offcanvas-btn d-flex align-center gap-10">
+                            <a class="bd-btn btn-gradient btn-small" href="sign-in.html">Sing In</a>
+                            <a class="bd-btn btn-secondary btn-small" href="sign-up.html">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="bd-offcanvas-social">
+                        <h4 class="bd-offcanvas-title-meta">Follow Us</h4>
+                        <div class="theme-social has-white">
+                            <ul class="social-icon-list">
+                                <li><a href="#"><i class="icon-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                                <li><a href="#"><i class="icon-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="icon-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bd-offcanvas-overlay"></div>
+    <div class="bd-offcanvas-overlay-white"></div>
+    <!-- Offcanvas area start -->
+
+    <!-- Dashboard page wrapper start -->
+    <div class="page">
+
+        <!-- Start app-sidebar -->
+        <aside class="app-sidebar sticky" id="sidebar">
+            <!-- start app-sidebar-header -->
+            <div class="app-sidebar-header">
+                <a class="app-sidebar-dark-logo" href="index.html">
+                    <img src="assets/images/logo/logo-white.svg" alt="image">
+                </a>
+                <a class="app-sidebar-light-logo" href="index.html">
+                    <img src="assets/images/logo/logo-black.svg" alt="image">
+                </a>
+            </div>
+            <!-- end app-sidebar-header -->
+
+            <!-- start app-sidebar-wrapper -->
+            <div class="app-sidebar-wrapper overflow-hidden">
+                <nav class="app-sidebar-menu-wrapper nav flex-column sub-open">
+                    <div class="sidebar-left" id="sidebar-left"></div>
+                    <ul class="app-sidebar-main-menu">
+                        <li class="slide">
+                            <a href="image-generator.html" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="assets/images/app-service/image-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Image Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="video-generator.html" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="assets/images/app-service/video-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Video Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="code-generator.html" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="assets/images/app-service/code-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Code Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="text-generator.html" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="assets/images/app-service/text-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Text Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="email-generator.html" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="assets/images/app-service/mail-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Email Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="website-generator.html" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="assets/images/app-service/website-generator-icon.svg" alt="image">
+                                    </div>
+                                </div>
+                                <span class="sidebar-menu-label">Website Generator</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="sidebar-right" id="sidebar-right"></div>
+                </nav>
+
+                <div class="chat-sidebar custom-scrollbar">
+                    <div class="chat-history">
+                        <h6 class="chat-history-title">Today</h6>
+                        <ul class="history-list">
+                            <li class="history-list-item active">
+                                <a href="#">AI Assistant Overview</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Recent Queries</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Productivity Tips</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Effective Code Management</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Cloud Architecture Design</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="content-divider mt-15 pb-15"></div>
+
+                    <div class="chat-history">
+                        <h6 class="chat-history-title">Yesterday</h6>
+                        <ul class="history-list">
+                            <li class="history-list-item">
+                                <a href="#">How to Build a Responsive Website</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Advanced CSS Grid Techniques</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">JavaScript Fundamentals</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Best Practices for Code Optimization</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Understanding Artificial Intelligence</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">How to Improve Web Performance</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="content-divider mt-15 pb-15"></div>
+
+                    <div class="chat-history">
+                        <h6 class="chat-history-title">Previous 7 days</h6>
+                        <ul class="history-list">
+                            <li class="history-list-item">
+                                <a href="#">How to Improve Web Accessibility</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Best Practices for Front-End Development</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Top Tools for Web Designers in 2025</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">How AI is Revolutionizing the Tech Industry</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Enhancing UX for E-commerce Websites</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Tips for Creating Responsive Websites</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="content-divider mt-15 pb-15"></div>
+
+                    <div class="chat-history">
+                        <h6 class="chat-history-title">Previous 30 Days</h6>
+                        <ul class="history-list">
+                            <li class="history-list-item">
+                                <a href="#">How to Implement SEO Best Practices</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">The Future of Blockchain Technology</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Web Development Frameworks Overview</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">How to Integrate APIs in Web Apps</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Advanced Data Analytics Project</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Sustainable Energy Research</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Mobile App Development</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Cybersecurity Protocol</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">Blockchain Integration</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="history-list-item">
+                                <a href="#">API Documentation</a>
+                                <div class="dropdown history-item-dropdown-menu">
+                                    <button type="button" class="options-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="ri-more-line"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="ri-share-line"></i>Share</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-edit-line"></i>Rename</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="ri-archive-line"></i>Archive</a>
+                                        </li>
+                                        <li><a class="dropdown-item delete-item" href="#"><i
+                                                    class="ri-delete-bin-line"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="upgrade-plan">
+                    <a class="upgrade-plan-btn" href="#">
+                        <div class="icon"><i class="ri-arrow-up-circle-line"></i></div>
+                        <div class="content">
+                            <span class="total">Upgrade plan</span>
+                            <span class="subtitle">More access to the best models</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end app-sidebar-wrapper -->
+
+        </aside>
+        <div class="app__offcanvas-overlay"></div>
+        <!-- end app-sidebar -->
+
+        <!-- app-header -->
+        <div class="app-header-area">
+            <header class="app-header" id="header">
+                <div class="app-header-inner">
+                    <div class="app-header-left">
+                        <div class="d-flex align-center gap-15">
+                            <div class="app-header-element">
+                                <a class="sidebar-toggle-bar" id="sidebarToggle" href="javascript:void(0)">
+                                    <div class="sidebar-menu-bar">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="app-header-mobile-logo">
+                                <a class="bd-header-dark-logo" href="index.html">
+                                    <img src="assets/images/logo/logo-white.svg" alt="image">
+                                </a>
+                                <a class="bd-header-light-logo" href="index.html">
+                                    <img src="assets/images/logo/logo-black.svg" alt="image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="app-header-site-menu">
+                            <nav class="main-menu bd-mobile-menu-active">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <!-- page menu -->
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="style-guide.html">Style Guide</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="pricing.html">Pricing Plans</a></li>
+                                            <li><a href="pricing-details.html">Pricing Details</a></li>
+                                            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                                            <li><a href="privacy-policy.html">Privacy & Policy</a></li>
+                                            <li><a href="sign-in.html">Sign In</a></li>
+                                            <li><a href="sign-up.html">Sign Up</a></li>
+                                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                                            <li><a href="maintenance.html">Maintenance</a></li>
+                                            <li><a href="404.html">404</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- dashboard menu -->
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Dashboard</a>
+                                        <ul class="submenu">
+                                            <li><a href="dashboard.html">Welcome</a></li>
+                                            <li><a href="profile.html">Profile</a></li>
+                                            <li><a href="profile-edit.html">Profile Edit</a></li>
+                                            <li><a href="profile-settings.html">Profile Settings</a></li>
+                                            <li><a href="plans-billing.html">Plans & Billing</a></li>
+                                            <li><a href="image-generator.html">Image Generator</a></li>
+                                            <li><a href="video-generator.html">Video Generator</a></li>
+                                            <li><a href="code-generator.html">Code Generator</a></li>
+                                            <li><a href="text-generator.html">Text Generator</a></li>
+                                            <li><a href="email-generator.html">Email Generator</a></li>
+                                            <li><a href="website-generator.html">Website Generator</a></li>
+                                            <li><a href="faq.html">FAq</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- blog menu -->
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Blog</a>
+                                        <ul class="submenu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="app-header-right">
+                        <div class="app-header-search d-none d-md-block">
+                            <form action="#">
+                                <input type="text" placeholder="Search Keyword">
+                                <button type="submit"><i class="icon-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                        <div class="bd-header-user">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="author">
+                                        <div class="author-thumb">
+                                            <img src="assets/images/avatar/main-user.webp" alt="user">
+                                        </div>
+                                        <div class="verified-badge pos-badge">
+                                            <i class="icon-check"></i>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li class="bd-user-info">
+                                        <div class="thumb"><img src="assets/images/avatar/main-user.webp" alt="user"></div>
+                                        <div class="meta">
+                                            <h6 class="name">John Doe</h6>
+                                            <span class="digi">Founder</span>
+                                        </div>
+                                    </li>
+                                    <li class="bd-user-info-list"><a href="dashboard.html"><i
+                                        class="ri-home-4-line"></i>Welcome</a></li>
+                                    <li class="bd-user-info-list"><a href="profile.html"><i class="ri-user-line"></i>Profile</a>
+                                    </li>
+                                    <li class="bd-user-info-list"><a href="profile-edit.html"><i
+                                        class="ri-edit-box-line"></i>Profile Edit</a></li>
+                                    <li class="bd-user-info-list"><a href="profile-settings.html"><i
+                                        class="ri-settings-2-line"></i>Profile Settings</a></li>
+                                    <li class="bd-user-info-list"><a href="plans-billing.html"><i
+                                        class="ri-bank-card-line"></i>Plans & Billing</a></li>
+                                    <li class="bd-user-info-list"><a href="sign-in.html"><i
+                                        class="ri-logout-circle-line"></i>Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="app-header-hamburger">
+                            <div class="sidebar-toggle">
+                                <a class="bar-icon" href="javascript:void(0)">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="body__overlay"></div>
+        </div>
+        <!-- app-header -->
+
+        <!-- Start app-content-area -->
+        <div class="app-content-area p-relative">
+            <div class="app-content-wrap">
+                <div class="generator-box-wrapper generator-gap">
+                    <div class="single-item-generator">
+                        <div class="chat-box">
+                            <div class="chat-box-author d-flex flex-wrap justify-end align-start gap-20">
+                                <div class="author-text-box d-flex align-center gap-15">
+                                    <div class="d-flex align-center gap-10">
+                                        <button type="button" class="author-text-btn bd-tooltip-show">
+                                            <i class="ri-file-copy-line"></i>
+                                            <span class="bd-tooltip">Copy</span>
+                                        </button>
+                                        <button type="button" class="author-text-btn bd-tooltip-show">
+                                            <i class="ri-edit-fill"></i>
+                                            <span class="bd-tooltip">Edit message</span>
+                                        </button>
+                                        <button type="button" class="author-text-btn bd-tooltip-show">
+                                            <i class="ri-delete-bin-line"></i>
+                                            <span class="bd-tooltip">Delete</span>
+                                        </button>
+                                    </div>
+                                    <div class="text">Give me an article idea for a blog post</div>
+                                </div>
+                                <div class="author">
+                                    <div class="author-thumb">
+                                        <img src="assets/images/avatar/main-user.webp" alt="user">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-box">
+                            <div class="d-flex flex-wrap justify-start align-start gap-20">
+                                <div class="ekoai-thumb"><img src="assets/images/logo/favicon.svg" alt=""></div>
+                                <div class="ekoai-body">
+                                    <p class="description">Here’s an intriguing article idea that explores the
+                                        intersection of productivity and mental well-being. It presents a perspective
+                                        that goes against the traditional idea of constantly being "busy" and working
+                                        harder.</p>
+
+                                    <h4 class="text-hading-title">"The Productivity Paradox: Why Doing Less Can Help You
+                                        Achieve More"</h4>
+
+                                    <p class="description">In this blog post, we’ll challenge the traditional notion of
+                                        productivity, exploring the counterintuitive idea that working less can actually
+                                        help you accomplish more. With the rise of "hustle culture" in modern society,
+                                        many people believe that working non-stop and maintaining a busy schedule are
+                                        the keys to success. However, this constant drive for more can lead to burnout,
+                                        lack of focus, and diminishing returns. This article offers a fresh perspective
+                                        on how taking time for rest and reflection can lead to greater long-term
+                                        success.</p>
+
+                                    <p class="description">The post will delve into:</p>
+
+                                    <ul class="generator-info-list sl-number-counts">
+                                        <li><strong>The 80/20 Rule (Pareto Principle):</strong> How focusing on the
+                                            few
+                                            things that truly matter can yield more results than trying to do
+                                            everything
+                                            at once.</li>
+                                        <li><strong>Time-Blocking Techniques:</strong> How to effectively manage
+                                            your
+                                            schedule by prioritizing tasks, scheduling focused time for deep work,
+                                            and
+                                            avoiding distractions.</li>
+                                        <li><strong>The Importance of Saying "No":</strong> Why learning to decline
+                                            non-essential tasks and requests can free up valuable time and energy
+                                            for
+                                            more meaningful work.</li>
+                                        <li><strong>Mindful Rest and Recovery:</strong> How taking regular breaks
+                                            and
+                                            embracing the power of rest can improve both mental and physical
+                                            well-being,
+                                            leading to enhanced productivity when you return to work.</li>
+                                    </ul>
+
+                                    <p class="description">Additionally, the article will offer actionable tips on how
+                                        to:</p>
+
+                                    <ul class="generator-info-list sl-number-counts">
+                                        <li> Streamline your daily routines to focus on high-impact tasks.</li>
+                                        <li> Use time management tools like Pomodoro and time-blocking to optimize work
+                                            hours.</li>
+                                        <li> Incorporate habits that promote mental clarity, such as meditation, deep
+                                            breathing, and walking outdoors.</li>
+                                        <li> Understand the importance of downtime and how it can prevent burnout and
+                                            lead to sustained productivity.</li>
+                                    </ul>
+
+                                    <p class="description">By following these strategies, readers can learn how to adopt
+                                        a more balanced approach to work that emphasizes quality over quantity, allowing
+                                        them to accomplish more while preserving their well-being.</p>
+
+                                    <p class="description">Would you like a more specific angle or a different topic
+                                        altogether? Let me know if you have a particular niche in mind, and I’d be happy
+                                        to tailor the content further!</p>
+
+                                    <div class="generator-info">
+                                        <p class="description">Would you like to explore another idea, or perhaps
+                                            customize this one further?</p>
+                                        <div class="generator-info-btn d-flex align-center gap-05">
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-volume-up-line"></i>
+                                                <span class="bd-tooltip bottom">Read aloud</span>
+                                            </button>
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-thumb-up-line"></i>
+                                                <span class="bd-tooltip bottom">Good response</span>
+                                            </button>
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-thumb-down-line"></i>
+                                                <span class="bd-tooltip bottom">Bad response</span>
+                                            </button>
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-edit-box-line"></i>
+                                                <span class="bd-tooltip bottom">Edit in canvas</span>
+                                            </button>
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-share-line"></i>
+                                                <span class="bd-tooltip bottom">Share</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- new chat form -->
+            <div class="new-chat-form-wrapper">
+                <div class="new-chat-form">
+                    <form action="#">
+                        <textarea placeholder="Write Message.."></textarea>
+                        <div class="new-chat-input d-flex align-center justify-between gap-30 mt-15">
+                            <div class="">
+                                <div class="generator-info-btn d-flex align-center gap-05">
+                                    <div class="generator-btn bd-tooltip-show">
+                                        <i class="ri-attachment-line"></i>
+                                        <input type="file" class="input-file" name="myfile" multiple="">
+                                        <span class="bd-tooltip">Attach files</span>
+                                    </div>
+                                    <button class="generator-btn bd-tooltip-show" type="button">
+                                        <i class="ri-image-line"></i>
+                                        <span class="bd-tooltip">Search Image</span>
+                                    </button>
+                                    <button class="generator-btn bd-tooltip-show" type="button">
+                                        <i class="ri-file-video-line"></i>
+                                        <span class="bd-tooltip">Search Video</span>
+                                    </button>
+                                    <button class="generator-btn bd-tooltip-show" type="button">
+                                        <i class="ri-global-line"></i>
+                                        <span class="bd-tooltip">Search Web</span>
+                                    </button>
+                                    <button class="generator-btn bd-tooltip-show" type="button">
+                                        <i class="ri-file-text-line"></i>
+                                        <span class="bd-tooltip">Search Text</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="">
+                                <button class="generator-btn bd-tooltip-show" type="button">
+                                    <i class="ri-upload-line"></i>
+                                    <span class="bd-tooltip">Message is empty</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- new chat form -->
+        </div>
+        <!-- end app-content-area -->
+    </div>
+    <!-- Dashboard page wrapper end -->
+
+    <!-- back to top area start -->
+    <div class="progress-wrap mobile-right">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- back to top area end -->
+
+    <!-- switcher area start -->
+    <div class="theme-switcher">
+        <i class="ri-sun-line change-theme" id="theme-button"></i>
+    </div>
+    <!-- switcher area start -->
+
+    <!-- JS here -->
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/plugins/popper.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/vendor/magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <script src="assets/js/vendor/ajax-form.js"></script>
+    <script src="assets/js/plugins/easypie.js"></script>
+    <script src="assets/js/vendor/purecounter.js"></script>
+    <script src="assets/js/vendor/backtotop.js"></script>
+    <script src="assets/js/plugins/prism.js"></script>
+    <script src="assets/js/plugins/typed.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/vendor/sidebar-menu.js"></script>
+</body>
+
+</html>
