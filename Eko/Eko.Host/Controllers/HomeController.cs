@@ -2,13 +2,12 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Eko.Controllers;
-
-
-[ApiController]
-[Route("")]
+[Controller]
+[Route("/")]
 public class HomeController : Controller
 {
-    public IActionResult Get()
+    [HttpGet]
+    public IActionResult Index()
     {
         return View();
     }

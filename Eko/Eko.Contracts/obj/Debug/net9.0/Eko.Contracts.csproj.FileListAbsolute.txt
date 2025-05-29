@@ -1,0 +1,12 @@
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\bin\Debug\net9.0\Eko.Contracts.deps.json
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\bin\Debug\net9.0\Eko.Contracts.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\bin\Debug\net9.0\Eko.Contracts.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\obj\Debug\net9.0\Eko.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\obj\Debug\net9.0\Eko.Contracts.AssemblyInfoInputs.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\obj\Debug\net9.0\Eko.Contracts.AssemblyInfo.cs
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\obj\Debug\net9.0\Eko.Contracts.csproj.CoreCompileInputs.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\obj\Debug\net9.0\Eko.Contracts.sourcelink.json
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\obj\Debug\net9.0\Eko.Contracts.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\obj\Debug\net9.0\refint\Eko.Contracts.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\obj\Debug\net9.0\Eko.Contracts.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Contracts\obj\Debug\net9.0\ref\Eko.Contracts.dll

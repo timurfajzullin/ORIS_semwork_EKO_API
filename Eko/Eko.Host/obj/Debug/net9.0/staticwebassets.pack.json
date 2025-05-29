@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\plugins\\swiper.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\swiper.min.css"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\vendor\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\animate.min.css"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\vendor\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\vendor\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\icomoon.css"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\vendor\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\vendor\\remixicon.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\remixicon.css"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\vendor\\spacing.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\spacing.css"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\fonts\\icomoon9f1e.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoon9f1e.eot"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\fonts\\icomoon9f1e.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoon9f1e.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\fonts\\icomoon9f1e.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoon9f1e.ttf"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\fonts\\icomoon9f1e.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoon9f1e.woff"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\fonts\\remixicon9711.eot",
+      "PackagePath": "staticwebassets\\fonts\\remixicon9711.eot"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\fonts\\remixicon9711.html",
+      "PackagePath": "staticwebassets\\fonts\\remixicon9711.html"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\fonts\\remixicon9711.ttf",
+      "PackagePath": "staticwebassets\\fonts\\remixicon9711.ttf"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\fonts\\remixicon9711.woff",
+      "PackagePath": "staticwebassets\\fonts\\remixicon9711.woff"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\fonts\\remixicon9711.woff2",
+      "PackagePath": "staticwebassets\\fonts\\remixicon9711.woff2"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\about\\about-image-001.webp",
+      "PackagePath": "staticwebassets\\images\\about\\about-image-001.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\about\\about-image-002.webp",
+      "PackagePath": "staticwebassets\\images\\about\\about-image-002.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\about\\about-image-003.webp",
+      "PackagePath": "staticwebassets\\images\\about\\about-image-003.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\about\\about-image-004.webp",
+      "PackagePath": "staticwebassets\\images\\about\\about-image-004.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\about\\about-image-005.webp",
+      "PackagePath": "staticwebassets\\images\\about\\about-image-005.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\app-service\\code-generator-icon.svg",
+      "PackagePath": "staticwebassets\\images\\app-service\\code-generator-icon.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\app-service\\image-generator-icon.svg",
+      "PackagePath": "staticwebassets\\images\\app-service\\image-generator-icon.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\app-service\\mail-generator-icon.svg",
+      "PackagePath": "staticwebassets\\images\\app-service\\mail-generator-icon.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\app-service\\text-generator-icon.svg",
+      "PackagePath": "staticwebassets\\images\\app-service\\text-generator-icon.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\app-service\\video-generator-icon.svg",
+      "PackagePath": "staticwebassets\\images\\app-service\\video-generator-icon.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\app-service\\website-generator-icon.svg",
+      "PackagePath": "staticwebassets\\images\\app-service\\website-generator-icon.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\avatar\\avatar-img-001.webp",
+      "PackagePath": "staticwebassets\\images\\avatar\\avatar-img-001.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\avatar\\avatar-img-002.webp",
+      "PackagePath": "staticwebassets\\images\\avatar\\avatar-img-002.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\avatar\\avatar-img-003.webp",
+      "PackagePath": "staticwebassets\\images\\avatar\\avatar-img-003.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\avatar\\main-user.webp",
+      "PackagePath": "staticwebassets\\images\\avatar\\main-user.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\bg\\profile-bg.webp",
+      "PackagePath": "staticwebassets\\images\\bg\\profile-bg.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\bg\\top-banner-2.webp",
+      "PackagePath": "staticwebassets\\images\\bg\\top-banner-2.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-001.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-001.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-002.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-002.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-003.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-003.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-004.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-004.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-005.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-005.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-006.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-006.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-007.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-007.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-008.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-008.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-009.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-009.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-010.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-010.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\blog\\blog-thumb-011.webp",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-011.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\generator\\generator-image-001.webp",
+      "PackagePath": "staticwebassets\\images\\generator\\generator-image-001.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\generator\\generator-image-002.webp",
+      "PackagePath": "staticwebassets\\images\\generator\\generator-image-002.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\generator\\generator-image-003.webp",
+      "PackagePath": "staticwebassets\\images\\generator\\generator-image-003.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\generator\\generator-image-004.webp",
+      "PackagePath": "staticwebassets\\images\\generator\\generator-image-004.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\generator\\generator-video-001.webp",
+      "PackagePath": "staticwebassets\\images\\generator\\generator-video-001.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\icon\\app-store.webp",
+      "PackagePath": "staticwebassets\\images\\icon\\app-store.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\icon\\mission-icon.webp",
+      "PackagePath": "staticwebassets\\images\\icon\\mission-icon.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\icon\\play-store.webp",
+      "PackagePath": "staticwebassets\\images\\icon\\play-store.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\icon\\value-icon.webp",
+      "PackagePath": "staticwebassets\\images\\icon\\value-icon.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\icon\\vision-icon.webp",
+      "PackagePath": "staticwebassets\\images\\icon\\vision-icon.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\logo\\favicon.svg",
+      "PackagePath": "staticwebassets\\images\\logo\\favicon.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\logo\\logo-black.svg",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-black.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\logo\\logo-white.svg",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-white.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\logo\\preloader-icon.webp",
+      "PackagePath": "staticwebassets\\images\\logo\\preloader-icon.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\partner\\partner-img-001.webp",
+      "PackagePath": "staticwebassets\\images\\partner\\partner-img-001.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\partner\\partner-img-002.webp",
+      "PackagePath": "staticwebassets\\images\\partner\\partner-img-002.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\partner\\partner-img-003.webp",
+      "PackagePath": "staticwebassets\\images\\partner\\partner-img-003.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\partner\\partner-img-004.webp",
+      "PackagePath": "staticwebassets\\images\\partner\\partner-img-004.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\partner\\partner-img-005.webp",
+      "PackagePath": "staticwebassets\\images\\partner\\partner-img-005.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\partner\\partner-img-006.webp",
+      "PackagePath": "staticwebassets\\images\\partner\\partner-img-006.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\partner\\partner-img-007.webp",
+      "PackagePath": "staticwebassets\\images\\partner\\partner-img-007.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\partner\\partner-img-008.webp",
+      "PackagePath": "staticwebassets\\images\\partner\\partner-img-008.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\shape\\badge_recomanded.webp",
+      "PackagePath": "staticwebassets\\images\\shape\\badge_recomanded.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\shape\\banner-shape.webp",
+      "PackagePath": "staticwebassets\\images\\shape\\banner-shape.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\shape\\breadcrumb-shape.webp",
+      "PackagePath": "staticwebassets\\images\\shape\\breadcrumb-shape.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\shape\\cross-out.webp",
+      "PackagePath": "staticwebassets\\images\\shape\\cross-out.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\shape\\facebook.svg",
+      "PackagePath": "staticwebassets\\images\\shape\\facebook.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\shape\\google.svg",
+      "PackagePath": "staticwebassets\\images\\shape\\google.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-001.webp",
+      "PackagePath": "staticwebassets\\images\\team\\team-img-001.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-002.webp",
+      "PackagePath": "staticwebassets\\images\\team\\team-img-002.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-003.webp",
+      "PackagePath": "staticwebassets\\images\\team\\team-img-003.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-004.webp",
+      "PackagePath": "staticwebassets\\images\\team\\team-img-004.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-005.webp",
+      "PackagePath": "staticwebassets\\images\\team\\team-img-005.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-006.webp",
+      "PackagePath": "staticwebassets\\images\\team\\team-img-006.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-007.webp",
+      "PackagePath": "staticwebassets\\images\\team\\team-img-007.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-008.webp",
+      "PackagePath": "staticwebassets\\images\\team\\team-img-008.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\easypie.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\easypie.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\nice-select.min.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\popper.min.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\prism.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\prism.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\swiper.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\swiper.min.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\typed.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\typed.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\wow.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\wow.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\ajax-form.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\ajax-form.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\backtotop.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\backtotop.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\purecounter.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\purecounter.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\sidebar-menu.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\sidebar-menu.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\video\\generat-video-001.mp4",
+      "PackagePath": "staticwebassets\\video\\generat-video-001.mp4"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\video\\generat-video-002.mp4",
+      "PackagePath": "staticwebassets\\video\\generat-video-002.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Eko.Host.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Eko.Host.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Eko.Host.props",
+      "PackagePath": "build\\Eko.Host.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Eko.Host.props",
+      "PackagePath": "buildMultiTargeting\\Eko.Host.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Eko.Host.props",
+      "PackagePath": "buildTransitive\\Eko.Host.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

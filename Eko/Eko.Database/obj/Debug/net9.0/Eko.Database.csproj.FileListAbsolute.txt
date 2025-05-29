@@ -1,0 +1,15 @@
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\bin\Debug\net9.0\Eko.Database.deps.json
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\bin\Debug\net9.0\Eko.Database.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\bin\Debug\net9.0\Eko.Database.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\Eko.Database.csproj.AssemblyReference.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\Eko.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\Eko.Database.AssemblyInfoInputs.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\Eko.Database.AssemblyInfo.cs
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\Eko.Database.csproj.CoreCompileInputs.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\Eko.Database.sourcelink.json
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\Eko.Database.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\refint\Eko.Database.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\Eko.Database.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\ref\Eko.Database.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\bin\Debug\net9.0\Eko.Database.runtimeconfig.json
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Database\obj\Debug\net9.0\Eko.Database.genruntimeconfig.cache

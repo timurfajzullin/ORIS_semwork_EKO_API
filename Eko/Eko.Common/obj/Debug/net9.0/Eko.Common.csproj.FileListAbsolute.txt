@@ -1,0 +1,12 @@
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\bin\Debug\net9.0\Eko.Common.deps.json
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\bin\Debug\net9.0\Eko.Common.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\bin\Debug\net9.0\Eko.Common.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.AssemblyInfoInputs.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.AssemblyInfo.cs
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.csproj.CoreCompileInputs.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.sourcelink.json
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\refint\Eko.Common.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\ref\Eko.Common.dll
