@@ -175,3 +175,16 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Eko.Common.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Eko.Features.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Eko.Common.pdb
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Eko.Features.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Eko.Auth.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Eko.Auth.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\MailKit.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\MimeKit.dll

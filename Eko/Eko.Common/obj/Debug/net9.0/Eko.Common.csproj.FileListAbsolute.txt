@@ -10,3 +10,7 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\refint\Eko.Common.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.pdb
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\ref\Eko.Common.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\bin\Debug\net9.0\Eko.Database.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\bin\Debug\net9.0\Eko.Database.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.csproj.AssemblyReference.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Common\obj\Debug\net9.0\Eko.Common.csproj.Up2Date

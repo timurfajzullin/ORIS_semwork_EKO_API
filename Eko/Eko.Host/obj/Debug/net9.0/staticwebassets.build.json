@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z8FmmKEl418U6k9sAn+Dvv5c5AGgDih1Cpe0b2mcRZ0=",
+  "Hash": "BaMAJ+iwfak34scs3IfjZkmBSueOxt/QMScSQFkKMDo=",
   "Source": "Eko.Host",
   "BasePath": "_content/Eko.Host",
   "Mode": "Default",
@@ -1298,6 +1298,27 @@
       "OriginalItemSpec": "wwwroot\\images\\about\\about-image-005.webp"
     },
     {
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\aim.jpg",
+      "SourceId": "Eko.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\",
+      "BasePath": "_content/Eko.Host",
+      "RelativePath": "images/aim#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0c0cz9yac6",
+      "Integrity": "sPOrq2uP/lt+SMxNs42e5w7igv64QI8VM1aE1f0Znh8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\aim.jpg"
+    },
+    {
       "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\app-service\\code-generator-icon.svg",
       "SourceId": "Eko.Host",
       "SourceType": "Discovered",
@@ -1781,6 +1802,27 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-thumb-011.webp"
     },
     {
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\broushouldtrain.jpg",
+      "SourceId": "Eko.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\",
+      "BasePath": "_content/Eko.Host",
+      "RelativePath": "images/broushouldtrain#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rt15se0dn4",
+      "Integrity": "gZOZQWh3oTOVMlkFP9tjmuQLPj+3SkrNoyixe/vZ0ts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\broushouldtrain.jpg"
+    },
+    {
       "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\generator\\generator-image-001.webp",
       "SourceId": "Eko.Host",
       "SourceType": "Discovered",
@@ -1989,6 +2031,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\icon\\vision-icon.webp"
+    },
+    {
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\ihide.jpg",
+      "SourceId": "Eko.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\",
+      "BasePath": "_content/Eko.Host",
+      "RelativePath": "images/ihide#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t9fmzmc074",
+      "Integrity": "Ly6JDYn7gvmiXy0ufwH5ES46izfy6dgb1qtugtC5WNU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ihide.jpg"
+    },
+    {
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\istrongjust.jpg",
+      "SourceId": "Eko.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\",
+      "BasePath": "_content/Eko.Host",
+      "RelativePath": "images/istrongjust#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5rzjy65yr0",
+      "Integrity": "P7ov2LODJ+qSR8rpSZOz5C4RbcSQytEGuSn0APIcv14=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\istrongjust.jpg"
     },
     {
       "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\logo\\favicon.svg",
@@ -2367,6 +2451,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\shape\\google.svg"
+    },
+    {
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\simple.jpg",
+      "SourceId": "Eko.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\",
+      "BasePath": "_content/Eko.Host",
+      "RelativePath": "images/simple#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wu42bwgg96",
+      "Integrity": "6A/qkKD/JxfBYVr5kSw/mjYSVgD6ac+fvm/NpGt7iSk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\simple.jpg"
     },
     {
       "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-001.webp",
@@ -6923,6 +7028,88 @@
       ]
     },
     {
+      "Route": "images/aim.0c0cz9yac6.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\aim.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sPOrq2uP/lt+SMxNs42e5w7igv64QI8VM1aE1f0Znh8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 11:09:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0c0cz9yac6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/aim.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sPOrq2uP/lt+SMxNs42e5w7igv64QI8VM1aE1f0Znh8="
+        }
+      ]
+    },
+    {
+      "Route": "images/aim.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\aim.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sPOrq2uP/lt+SMxNs42e5w7igv64QI8VM1aE1f0Znh8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 11:09:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sPOrq2uP/lt+SMxNs42e5w7igv64QI8VM1aE1f0Znh8="
+        }
+      ]
+    },
+    {
       "Route": "images/app-service/code-generator-icon.svg",
       "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\fe7fy975vt-ud7yysfqcm.gz",
       "Selectors": [
@@ -10105,6 +10292,88 @@
       ]
     },
     {
+      "Route": "images/broushouldtrain.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\broushouldtrain.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZOZQWh3oTOVMlkFP9tjmuQLPj+3SkrNoyixe/vZ0ts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 11:09:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZOZQWh3oTOVMlkFP9tjmuQLPj+3SkrNoyixe/vZ0ts="
+        }
+      ]
+    },
+    {
+      "Route": "images/broushouldtrain.rt15se0dn4.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\broushouldtrain.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZOZQWh3oTOVMlkFP9tjmuQLPj+3SkrNoyixe/vZ0ts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 11:09:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rt15se0dn4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/broushouldtrain.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZOZQWh3oTOVMlkFP9tjmuQLPj+3SkrNoyixe/vZ0ts="
+        }
+      ]
+    },
+    {
       "Route": "images/generator/generator-image-001.webp",
       "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\generator\\generator-image-001.webp",
       "Selectors": [],
@@ -10921,6 +11190,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-aLXgEZDHXLIrFewvgI1bVMtUEa0WYZlfEGHCwvv+UUc="
+        }
+      ]
+    },
+    {
+      "Route": "images/ihide.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\ihide.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ly6JDYn7gvmiXy0ufwH5ES46izfy6dgb1qtugtC5WNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ly6JDYn7gvmiXy0ufwH5ES46izfy6dgb1qtugtC5WNU="
+        }
+      ]
+    },
+    {
+      "Route": "images/ihide.t9fmzmc074.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\ihide.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ly6JDYn7gvmiXy0ufwH5ES46izfy6dgb1qtugtC5WNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t9fmzmc074"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ihide.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ly6JDYn7gvmiXy0ufwH5ES46izfy6dgb1qtugtC5WNU="
+        }
+      ]
+    },
+    {
+      "Route": "images/istrongjust.5rzjy65yr0.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\istrongjust.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P7ov2LODJ+qSR8rpSZOz5C4RbcSQytEGuSn0APIcv14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 11:07:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5rzjy65yr0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/istrongjust.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P7ov2LODJ+qSR8rpSZOz5C4RbcSQytEGuSn0APIcv14="
+        }
+      ]
+    },
+    {
+      "Route": "images/istrongjust.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\istrongjust.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P7ov2LODJ+qSR8rpSZOz5C4RbcSQytEGuSn0APIcv14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 11:07:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P7ov2LODJ+qSR8rpSZOz5C4RbcSQytEGuSn0APIcv14="
         }
       ]
     },
@@ -13477,6 +13910,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+M8sPzdvlx4GBCI9ifhjQ5l3wyxaFTtVNVUOQxCbdKM="
+        }
+      ]
+    },
+    {
+      "Route": "images/simple.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\simple.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6A/qkKD/JxfBYVr5kSw/mjYSVgD6ac+fvm/NpGt7iSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:15:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6A/qkKD/JxfBYVr5kSw/mjYSVgD6ac+fvm/NpGt7iSk="
+        }
+      ]
+    },
+    {
+      "Route": "images/simple.wu42bwgg96.jpg",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\simple.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6A/qkKD/JxfBYVr5kSw/mjYSVgD6ac+fvm/NpGt7iSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:15:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wu42bwgg96"
+        },
+        {
+          "Name": "label",
+          "Value": "images/simple.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6A/qkKD/JxfBYVr5kSw/mjYSVgD6ac+fvm/NpGt7iSk="
         }
       ]
     },

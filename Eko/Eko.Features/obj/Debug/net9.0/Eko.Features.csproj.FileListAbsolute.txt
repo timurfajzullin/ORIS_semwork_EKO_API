@@ -16,3 +16,5 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Features\obj\Debug\net9.0\Eko.Features.d
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Features\obj\Debug\net9.0\refint\Eko.Features.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Features\obj\Debug\net9.0\Eko.Features.pdb
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Features\obj\Debug\net9.0\ref\Eko.Features.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Features\bin\Debug\net9.0\Eko.Auth.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Features\bin\Debug\net9.0\Eko.Auth.pdb

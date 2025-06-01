@@ -1,0 +1,485 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Code Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logo/favicon.svg">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/vendor/animate.min.css">
+    <link rel="stylesheet" href="../css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="../css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="../css/vendor/icomoon.css">
+    <link rel="stylesheet" href="../css/vendor/remixicon.css">
+    <link rel="stylesheet" href="../css/vendor/spacing.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <!-- preloader start -->
+
+    <div class="page">
+
+        <!-- Start app-sidebar -->
+        <aside class="app-sidebar sticky" id="sidebar">
+            <!-- start app-sidebar-header -->
+            <div class="app-sidebar-header">
+                <a class="app-sidebar-dark-logo" href="/">
+                    <img src="../images/logo/logo-white.svg" alt="image">
+                </a>
+                <a class="app-sidebar-light-logo" href="/">
+                    <img src="../images/logo/logo-black.svg" alt="image">
+                </a>
+            </div>
+            <!-- end app-sidebar-header -->
+
+            <!-- start app-sidebar-wrapper -->
+            <div class="app-sidebar-wrapper overflow-hidden">
+                <nav class="app-sidebar-menu-wrapper nav flex-column sub-open">
+                    <div class="sidebar-left" id="sidebar-left"></div>
+                    <ul class="app-sidebar-main-menu">
+                        <li class="slide">
+                            <a href="/Generators/Image" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="../images/app-service/image-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Image Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="/Generators/Video" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="../images/app-service/video-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Video Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="/Generators/Code" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="../images/app-service/code-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Code Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="/Generators/Text" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="../images/app-service/text-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Text Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="/Generators/Email" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="../images/app-service/mail-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Email Generator</span>
+                            </a>
+                        </li>
+                        <li class="slide">
+                            <a href="/Generators/Website" class="sidebar-menu-item">
+                                <div class="side-menu-icon">
+                                    <div class="img-icon"><img src="../images/app-service/website-generator-icon.svg" alt="image"></div>
+                                </div>
+                                <span class="sidebar-menu-label">Website Generator</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="sidebar-right" id="sidebar-right"></div>
+                </nav>
+                </div>
+            <!-- end app-sidebar-wrapper -->
+        </aside>
+        <div class="app__offcanvas-overlay"></div>
+        <!-- end app-sidebar -->
+
+        <!-- app-header -->
+        <div class="app-header-area">
+            <header class="app-header" id="header">
+                <div class="app-header-inner">
+                    <div class="app-header-left">
+                        <div class="d-flex align-center gap-15">
+                            <div class="app-header-element">
+                                <a class="sidebar-toggle-bar" id="sidebarToggle" href="javascript:void(0)">
+                                    <div class="sidebar-menu-bar">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="app-header-mobile-logo">
+                                <a class="bd-header-dark-logo" href="/">
+                                    <img src="../images/logo/logo-white.svg" alt="image">
+                                </a>
+                                <a class="bd-header-light-logo" href="/">
+                                    <img src="../images/logo/logo-black.svg" alt="image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="app-header-site-menu">
+                            <nav class="main-menu bd-mobile-menu-active">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <!-- page menu -->
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="/Information/StyleGuide">Style Guide</a></li>
+                                            <li><a href="/Information/About">About Us</a></li>
+                                            <li><a href="/Information/Team">Team</a></li>
+                                            <li><a href="/Information/Pricing">Pricing Plans</a></li>
+                                            <li><a href="/Information/PricingDetails">Pricing Details</a></li>
+                                            <li><a href="/Auth/SignIn">Sign In</a></li>
+                                            <li><a href="/Auth/SignUp">Sign Up</a></li>
+                                            <li><a href="/Information/ComingSoon">Coming Soon</a></li>
+                                            <li><a href="/Information/Maintenance">Maintenance</a></li>
+                                            <li><a href="/Information/Error">404</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- dashboard menu -->
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Dashboard</a>
+                                        <ul class="submenu">
+                                            <li><a href="/Dashboard/Dashboard">Welcome</a></li>
+                                            <li><a href="/Dashboard/Profile">Profile</a></li>
+                                            <li><a href="/Generators/Image">Image Generator</a></li>
+                                            <li><a href="/Generators/Video">Video Generator</a></li>
+                                            <li><a href="/Generators/Code">Code Generator</a></li>
+                                            <li><a href="/Generators/Text">Text Generator</a></li>
+                                            <li><a href="/Generators/Email">Email Generator</a></li>
+                                            <li><a href="/Generators/Website">Website Generator</a></li>
+                                            <li><a href="/Dashboard/Faq">FAq</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- blog menu -->
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Blog</a>
+                                        <ul class="submenu">
+                                            <li><a href="/Blog">Blog</a></li>
+                                            <li><a href="/Blog/BlogDetails">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/ContactUs">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="app-header-right">
+                        <div class="bd-header-user">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="author">
+                                        <div class="author-thumb">
+                                            <img src="../images/avatar/main-user.webp" alt="user">
+                                        </div>
+                                        <div class="verified-badge pos-badge">
+                                            <i class="icon-check"></i>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li class="bd-user-info">
+                                        <div class="thumb"><img src="../images/avatar/main-user.webp" alt="user"></div>
+                                        <div class="meta">
+                                            <h6 class="name">John Doe</h6>
+                                        </div>
+                                    </li>
+                                    <li class="bd-user-info-list"><a href="/Dashboard/Dashboard"><i class="ri-home-4-line"></i>Welcome</a>
+                                    </li>
+                                    <li class="bd-user-info-list"><a href="/Dashboard/Profile"><i class="ri-user-line"></i>Profile</a></li>
+                                    <li class="bd-user-info-list"><a href="/Auth/SignIn"><i
+                                                class="ri-logout-circle-line"></i>Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="app-header-hamburger">
+                            <div class="sidebar-toggle">
+                                <a class="bar-icon" href="javascript:void(0)">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="body__overlay"></div>
+        </div>
+        <!-- app-header -->
+
+        <!-- Start app-content-area -->
+        <div class="app-content-area p-relative">
+            <div class="app-content-wrap">
+                <div class="generator-box-wrapper generator-gap">
+                    <div class="single-image-generator">
+                        <div class="chat-box">
+                            <div class="chat-box-author d-flex flex-wrap justify-end align-start gap-20">
+                                <div class="author-text-box d-flex align-center gap-15">
+                                    <div class="d-flex align-center gap-10">
+                                        <button type="button" class="author-text-btn bd-tooltip-show">
+                                            <i class="ri-file-copy-line"></i>
+                                            <span class="bd-tooltip">Copy</span>
+                                        </button>
+                                        <button type="button" class="author-text-btn bd-tooltip-show">
+                                            <i class="ri-edit-fill"></i>
+                                            <span class="bd-tooltip">Edit message</span>
+                                        </button>
+                                        <button type="button" class="author-text-btn bd-tooltip-show">
+                                            <i class="ri-delete-bin-line"></i>
+                                            <span class="bd-tooltip">Delete</span>
+                                        </button>
+                                    </div>
+                                    <div class="text">Create a responsive navigation bar with dropdown menus.</div>
+                                </div>
+                                <div class="author">
+                                    <div class="author-thumb">
+                                        <img src="../images/avatar/main-user.webp" alt="user">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-box">
+                            <div class="d-flex flex-wrap justify-start align-start gap-20">
+                                <div class="ekoai-thumb"><img src="../images/logo/favicon.svg" alt=""></div>
+                                <div class="ekoai-body">
+                                    <p class="description">Here’s a simple navigation bar with a dropdown menu using
+                                        HTML, CSS, and JavaScript.</p>
+                                    <h6 class="title">Code Example</h6>
+                                    <h6 class="fs-18 mt-15 mb-15">HTML</h6>
+                                    <!-- HTML code start -->
+                                    <div class="code-highlight">
+                                        <pre>
+                                            <code class="language-html" data-lang="html">
+                                                &lt;!DOCTYPE html&gt;
+                                                &lt;html lang=&quot;en&quot;&gt;
+                                                &lt;head&gt;
+                                                &lt;meta charset=&quot;UTF-8&quot;&gt;
+                                                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                                                &lt;title&gt;Responsive Navbar&lt;/title&gt;
+                                                &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+                                                &lt;/head&gt;
+                                                &lt;body&gt;
+                                                &lt;nav class=&quot;navbar&quot;&gt;
+                                                    &lt;ul&gt;
+                                                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Services&lt;/a&gt;
+                                                            &lt;ul class=&quot;dropdown&quot;&gt;
+                                                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Web Design&lt;/a&gt;&lt;/li&gt;
+                                                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;App Development&lt;/a&gt;&lt;/li&gt;
+                                                            &lt;/ul&gt;
+                                                        &lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                                                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                                                    &lt;/ul&gt;
+                                                &lt;/nav&gt;
+                                                &lt;/body&gt;
+                                                &lt;/html&gt;
+                                            </code>
+                                        </pre>
+                                    </div>
+                                    <!-- HTML code end -->
+
+                                    <!-- CSS code start -->
+                                    <h6 class="fs-18 mt-15 mb-15">CSS <span class="fw-4">(styles.css)</span></h6>
+                                    <div class="code-highlight">
+                                        <pre>
+                                            <code class="language-css" data-lang="css">
+                                                body {
+                                                    font-family: Arial, sans-serif;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    background-color: #f4f4f4;
+                                                }
+                                                .navbar {
+                                                    background-color: #333;
+                                                    overflow: hidden;
+                                                }
+                                                .navbar ul {
+                                                    list-style: none;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    display: flex;
+                                                }
+                                                .navbar li {
+                                                    position: relative;
+                                                }
+                                                .navbar a {
+                                                    color: white;
+                                                    padding: 14px 20px;
+                                                    display: block;
+                                                    text-decoration: none;
+                                                }
+                                                .navbar a:hover {
+                                                    background-color: #575757;
+                                                }
+                                                .dropdown {
+                                                    display: none;
+                                                    position: absolute;
+                                                    background-color: #333;
+                                                    top: 100%;
+                                                    left: 0;
+                                                }
+                                                .navbar li:hover .dropdown {
+                                                    display: block;
+                                                }
+                                            </code>
+                                        </pre>
+                                    </div>
+                                    <!-- CSS code end -->
+
+                                    <!-- JS code start -->
+                                    <h6 class="fs-18 mt-15 mb-15">JavaScript <span class="fw-4">(script.js)</span></h6>
+                                    <div class="code-highlight">
+                                        <pre>
+                                            <code class="language-js" data-lang="js">
+                                                const dropdowns = document.querySelectorAll('.navbar li');
+                                                dropdowns.forEach(dropdown => {
+                                                    dropdown.addEventListener('mouseover', () => {
+                                                        dropdown.querySelector('.dropdown').style.display = 'block';
+                                                    });
+                                                    dropdown.addEventListener('mouseout', () => {
+                                                        dropdown.querySelector('.dropdown').style.display = 'none';
+                                                    });
+                                                });
+                                            </code>
+                                        </pre>
+                                    </div>
+                                    <!-- JS code end -->
+                                    <div class="generator-info">
+                                        <h6 class="title">Features:</h6>
+                                        <ul class="generator-info-list sl-number-counts">
+                                            <li> <strong>CSS Styling:</strong> The navbar has a sleek design with hover
+                                                effects and dropdown menus.</li>
+                                            <li> <strong>JavaScript Functionality:</strong> The dropdown appears when
+                                                hovering over the menu items.</li>
+                                            <li> <strong>Responsive:</strong> Adjusts well across various screen sizes.
+                                            </li>
+                                        </ul>
+                                        <p class="description">Customize the navbar to fit your website’s needs.</p>
+                                        <div class="generator-info-btn d-flex align-center gap-05">
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-volume-up-line"></i>
+                                                <span class="bd-tooltip bottom">Read aloud</span>
+                                            </button>
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-thumb-up-line"></i>
+                                                <span class="bd-tooltip bottom">Good response</span>
+                                            </button>
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-thumb-down-line"></i>
+                                                <span class="bd-tooltip bottom">Bad response</span>
+                                            </button>
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-edit-box-line"></i>
+                                                <span class="bd-tooltip bottom">Edit in canvas</span>
+                                            </button>
+                                            <button class="generator-btn bd-tooltip-show" type="button">
+                                                <i class="ri-share-line"></i>
+                                                <span class="bd-tooltip bottom">Share</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new chat form -->
+            <div class="new-chat-form-wrapper">
+                <div class="new-chat-form">
+                    <form action="#">
+                        <textarea placeholder="Write Message.."></textarea>
+                        <div class="new-chat-input d-flex align-center justify-between gap-30 mt-15">
+                            <div class="">
+                                <div class="generator-info-btn d-flex align-center gap-05">
+                                    <div class="generator-btn bd-tooltip-show">
+                                        <i class="ri-attachment-line"></i>
+                                        <input type="file" class="input-file" name="myfile" multiple="">
+                                        <span class="bd-tooltip">Attach files</span>
+                                    </div>
+                                    <button class="generator-btn bd-tooltip-show" type="button">
+                                        <i class="ri-image-line"></i>
+                                        <span class="bd-tooltip">Search Image</span>
+                                    </button>
+                                    <button class="generator-btn bd-tooltip-show" type="button">
+                                        <i class="ri-file-video-line"></i>
+                                        <span class="bd-tooltip">Search Video</span>
+                                    </button>
+                                    <button class="generator-btn bd-tooltip-show" type="button">
+                                        <i class="ri-global-line"></i>
+                                        <span class="bd-tooltip">Search Web</span>
+                                    </button>
+                                    <button class="generator-btn bd-tooltip-show" type="button">
+                                        <i class="ri-file-text-line"></i>
+                                        <span class="bd-tooltip">Search Text</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="">
+                                <button class="generator-btn bd-tooltip-show" type="button">
+                                    <i class="ri-upload-line"></i>
+                                    <span class="bd-tooltip">Message is empty</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- new chat form -->
+        </div>
+        <!-- end app-content-area -->
+
+    </div>
+    <!-- Dashboard page wrapper end -->
+
+    <!-- back to top area start -->
+    <div class="progress-wrap mobile-right">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- back to top area end -->
+
+    <!-- switcher area start -->
+    <div class="theme-switcher">
+        <i class="ri-sun-line change-theme" id="theme-button"></i>
+    </div>
+    <!-- switcher area start -->
+
+    <!-- JS here -->
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../js/plugins/popper.min.js"></script>
+    <script src="../js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="../js/plugins/waypoints.min.js"></script>
+    <script src="../js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="../js/plugins/swiper.min.js"></script>
+    <script src="../js/plugins/wow.js"></script>
+    <script src="../js/vendor/magnific-popup.min.js"></script>
+    <script src="../js/vendor/isotope.pkgd.min.js"></script>
+    <script src="../js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/plugins/nice-select.min.js"></script>
+    <script src="../js/vendor/ajax-form.js"></script>
+    <script src="../js/plugins/easypie.js"></script>
+    <script src="../js/vendor/purecounter.js"></script>
+    <script src="../js/vendor/backtotop.js"></script>
+    <script src="../js/plugins/prism.js"></script>
+    <script src="../js/plugins/typed.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/vendor/sidebar-menu.js"></script>
+</body>
+
+</html>

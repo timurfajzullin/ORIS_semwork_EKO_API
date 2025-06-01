@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eko.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+967d5f0f398e3720bdfe3b650286c326b62f2bbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d6ba7f1ee9bed26e280e71f8bfd702f12a3450d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eko.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eko.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

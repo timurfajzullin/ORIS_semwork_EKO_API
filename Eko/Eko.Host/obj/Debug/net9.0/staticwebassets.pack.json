@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\images\\about\\about-image-005.webp"
     },
     {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\aim.jpg",
+      "PackagePath": "staticwebassets\\images\\aim.jpg"
+    },
+    {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\app-service\\code-generator-icon.svg",
       "PackagePath": "staticwebassets\\images\\app-service\\code-generator-icon.svg"
     },
@@ -181,6 +185,10 @@
       "PackagePath": "staticwebassets\\images\\blog\\blog-thumb-011.webp"
     },
     {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\broushouldtrain.jpg",
+      "PackagePath": "staticwebassets\\images\\broushouldtrain.jpg"
+    },
+    {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\generator\\generator-image-001.webp",
       "PackagePath": "staticwebassets\\images\\generator\\generator-image-001.webp"
     },
@@ -219,6 +227,14 @@
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\icon\\vision-icon.webp",
       "PackagePath": "staticwebassets\\images\\icon\\vision-icon.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\ihide.jpg",
+      "PackagePath": "staticwebassets\\images\\ihide.jpg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\istrongjust.jpg",
+      "PackagePath": "staticwebassets\\images\\istrongjust.jpg"
     },
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\logo\\favicon.svg",
@@ -291,6 +307,10 @@
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\shape\\google.svg",
       "PackagePath": "staticwebassets\\images\\shape\\google.svg"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\simple.jpg",
+      "PackagePath": "staticwebassets\\images\\simple.jpg"
     },
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\team\\team-img-001.webp",

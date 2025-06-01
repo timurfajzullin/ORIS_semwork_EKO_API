@@ -6,6 +6,8 @@ namespace Eko.Database;
 public class EkoDbContext : DbContext, IEkoDbContext
 {
     public DbSet<Person> Person { get; set; }
+    
+    public DbSet<Notification> Notification { get; set; }
 
     public EkoDbContext(DbContextOptions<EkoDbContext> options) : base(options)
     { }
@@ -23,5 +25,7 @@ public class EkoDbContext : DbContext, IEkoDbContext
 public interface IEkoDbContext
 {
     DbSet<Person> Person { get; set; }
+    
+    DbSet<Notification> Notification { get; set; }
     Task<int> SaveChangesAsync();
 }

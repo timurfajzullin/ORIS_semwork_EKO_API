@@ -1,0 +1,16 @@
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\bin\Debug\net9.0\Eko.Auth.deps.json
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\bin\Debug\net9.0\Eko.Auth.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\bin\Debug\net9.0\Eko.Auth.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\bin\Debug\net9.0\Eko.Database.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\bin\Debug\net9.0\Eko.Database.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\Eko.Auth.csproj.AssemblyReference.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\Eko.Auth.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\Eko.Auth.AssemblyInfoInputs.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\Eko.Auth.AssemblyInfo.cs
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\Eko.Auth.csproj.CoreCompileInputs.cache
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\Eko.Auth.sourcelink.json
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\Eko.Auth.csproj.Up2Date
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\Eko.Auth.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\refint\Eko.Auth.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\Eko.Auth.pdb
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Auth\obj\Debug\net9.0\ref\Eko.Auth.dll
