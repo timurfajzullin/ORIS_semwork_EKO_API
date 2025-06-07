@@ -10,6 +10,7 @@
         "dependencies": {
           "Eko.Database": "1.0.0",
           "MailKit": "4.1.0",
+          "Microsoft.Extensions.Options": "9.0.1",
           "MimeKit": "4.7.1"
         },
         "runtime": {

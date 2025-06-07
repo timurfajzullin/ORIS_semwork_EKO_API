@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },
@@ -131,6 +135,10 @@
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\avatar\\main-user.webp",
       "PackagePath": "staticwebassets\\images\\avatar\\main-user.webp"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\avatar\\userIcon.png",
+      "PackagePath": "staticwebassets\\images\\avatar\\userIcon.png"
     },
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\images\\bg\\profile-bg.webp",
@@ -345,6 +353,18 @@
       "PackagePath": "staticwebassets\\images\\team\\team-img-008.webp"
     },
     {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\adminpanel.js",
+      "PackagePath": "staticwebassets\\js\\adminpanel.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\fetch.js",
+      "PackagePath": "staticwebassets\\js\\fetch.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\forALL.js",
+      "PackagePath": "staticwebassets\\js\\forALL.js"
+    },
+    {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
@@ -379,6 +399,10 @@
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\wow.js",
       "PackagePath": "staticwebassets\\js\\plugins\\wow.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\profile.js",
+      "PackagePath": "staticwebassets\\js\\profile.js"
     },
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\ajax-form.js",

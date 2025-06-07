@@ -1,6 +1,7 @@
 ﻿using Eko.Common.Cqrs;
 using Eko.Common.EmailService;
 using Eko.Database;
+using Microsoft.Extensions.Logging;
 
 namespace Eko.Features.Notification;
 
@@ -17,11 +18,13 @@ public class NotificationCommandHandler : ICommandHandler<NotificationCommand>
 {
     private readonly IEkoDbContext _dbContext;
     private readonly IEmailService _emailService;
+    private readonly ILogger<NotificationCommandHandler> _logger;
 
-    public NotificationCommandHandler(IEkoDbContext dbContext, IEmailService emailService)
+    public NotificationCommandHandler(IEkoDbContext dbContext, IEmailService emailService, ILogger<NotificationCommandHandler> logger)
     {
         _dbContext = dbContext;
         _emailService = emailService;
+        _logger = logger;
     }
     
     public async Task Execute(NotificationCommand command)
@@ -40,7 +43,7 @@ public class NotificationCommandHandler : ICommandHandler<NotificationCommand>
             Message = command.Message
         };
         _emailService.SendApplicationConfirmationAsync(notification);
-        
+        _logger.LogInformation($"Уведомление {notification.Id} отправленно пользователю {command.Name} на {command.Email}");
         await _dbContext.Notification.AddAsync(notification);
         await _dbContext.SaveChangesAsync();
     }

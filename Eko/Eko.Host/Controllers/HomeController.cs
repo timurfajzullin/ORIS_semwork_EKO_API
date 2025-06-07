@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Eko.Auth;
 using Eko.Common.Cqrs;
 using Eko.Features.Notification;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -16,7 +17,7 @@ public class HomeController : Controller
         return View();
     }
 
-    // [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = Policy.AdminOrUser)]
     [HttpGet("[action]")]
     public IActionResult ContactUs()
     {

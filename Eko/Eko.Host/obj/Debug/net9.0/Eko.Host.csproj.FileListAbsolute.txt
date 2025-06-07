@@ -16,7 +16,6 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\Eko.Host.RazorAsse
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\Eko.Host.RazorAssemblyInfo.cs
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\Eko.Host.sourcelink.json
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\scopedcss\bundle\Eko.Host.styles.css
-D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\ierkfui10n-6ysh0ltnuz.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\6kw44utidw-9dc5vyjxme.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\hnqu91iclr-w8nflcaxrc.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\67a6gm5ip5-p89xeiuxuj.gz
@@ -37,7 +36,6 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\68tqpef
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\nug998jxy4-j7io3ren1d.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\ijg6wmbtdg-3lebpw4if9.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\woxe2szwn5-h2t88ttre1.gz
-D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\vmx82e72fk-bzmxlvp2mh.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\qbrv5ycbhw-alokx6a327.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\ck1suriotl-eix7w2fz8h.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\cgukqlfa2z-6tv58ai1ok.gz
@@ -54,7 +52,6 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\kjlafum
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\92hxp3oohu-angbmqdb46.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\b2ge7tj955-k1xzklfb33.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\xzd4myf8dk-zk5suvyhxt.gz
-D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\7u19polb67-qgoyqmldct.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\staticwebassets.build.json
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\staticwebassets.development.json
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -188,3 +185,16 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.Identity
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\MailKit.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\MimeKit.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\ierkfui10n-6ysh0ltnuz.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\kvfjve87ah-tggwwmzkwp.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\gl4d3my6ky-g17zi51ny5.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\vmx82e72fk-a3leoke107.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\7u19polb67-14s4mjhs6h.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\Eko.Host.MvcApplicationPartsAssemblyInfo.cs
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\i4gg910tb9-xugq0rnqx0.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\657yqk0rrf-k0vdrv3o7s.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\b6zai63n9q-8x3vepzvhb.gz

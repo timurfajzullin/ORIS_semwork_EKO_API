@@ -29,11 +29,12 @@ public class VerifyPersonCommandHandler : ICommandHandler<VerifyPersonCommand, s
     public async Task<string> Execute(VerifyPersonCommand command)
     {
         var person = await VerifyPerson(command.Email);
+        _logger.LogInformation($"Пользователь {person.FirstName} {person.Email} верифицировался");
         var jwt = await _JwtTokenHandler.GenerateToken(person);
         return jwt;
     }
 
-    private async Task<Person> VerifyPerson(string email)
+    private async Task<Database.Entities.Person?> VerifyPerson(string email)
     {
         var person = await _dbContext.Person.FirstOrDefaultAsync(x => x.Email == email);
         if (person == null) throw new InvalidOperationException("Invalid email");

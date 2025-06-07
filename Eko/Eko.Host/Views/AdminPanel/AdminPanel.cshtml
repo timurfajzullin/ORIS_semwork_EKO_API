@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ панель</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+<div class="admin-container">
+    <header class="admin-header">
+        <h1>Административная панель</h1>
+        <div class="user-info">
+            <span>Администратор</span>
+        </div>
+    </header>
+
+    <nav class="admin-sidebar">
+        <ul>
+            <li class="active" data-section="register"><a href="#">Зарегистрировать пользователя</a></li>
+            <li data-section="edit"><a href="#">Изменить профиль пользователя</a></li>
+            <li data-section="delete"><a href="#">Удалить пользователя</a></li>
+        </ul>
+    </nav>
+
+    <main class="admin-content">
+        <section id="register" class="content-section active">
+            <h2>Регистрация нового пользователя</h2>
+            <form class="admin-form">
+                <div class="form-group">
+                    <label for="reg-firstname">Имя:</label>
+                    <input type="text" id="reg-firstname" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-lastname">Фамилия:</label>
+                    <input type="text" id="reg-lastname" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-email">Email:</label>
+                    <input type="email" id="reg-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">Пароль:</label>
+                    <input type="password" id="reg-password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-isadmin">Администратор:</label>
+                    <input type="checkbox" id="reg-isadmin" name="isAdmin">
+                </div>
+                <button type="submit" class="submit-btn">Зарегистрировать</button>
+            </form>
+        </section>
+
+        <!-- Секция изменения профиля -->
+        <section id="edit" class="content-section">
+            <h2>Изменение профиля пользователя</h2>
+            <form class="admin-form">
+                <div class="form-group">
+                    <label for="edit-user">Выберите пользователя:</label>
+                    <select id="edit-user" class="user-select">
+                        <option value="">-- Загрузка пользователей... --</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="edit-birthdate">Дата рождения:</label>
+                    <input type="date" id="edit-birthdate" name="birthDate">
+                </div>
+                <div class="form-group">
+                    <label for="edit-experience">Опыт (лет):</label>
+                    <input type="number" id="edit-experience" name="experience" min="0">
+                </div>
+                <div class="form-group">
+                    <label for="edit-bio">Биография:</label>
+                    <textarea id="edit-bio" name="bio" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="edit-skills">Навыки (через запятую):</label>
+                    <input type="text" id="edit-skills" name="skills">
+                </div>
+                <div class="form-group">
+                    <label for="edit-specialty">Специальность:</label>
+                    <input type="text" id="edit-specialty" name="specialty">
+                </div>
+                <button type="submit" class="submit-btn">Сохранить изменения</button>
+            </form>
+        </section>
+
+        <!-- Секция удаления пользователя -->
+        <section id="delete" class="content-section">
+            <h2>Удаление пользователя</h2>
+            <form class="admin-form">
+                <div class="form-group">
+                    <label for="delete-user">Выберите пользователя:</label>
+                    <select id="delete-user" class="user-select">
+                        <option value="">-- Загрузка пользователей... --</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="confirm-delete">
+                        Я подтверждаю удаление пользователя
+                    </label>
+                </div>
+                <button type="submit" class="submit-btn delete-btn">Удалить пользователя</button>
+            </form>
+        </section>
+    </main>
+</div>
+
+<script src="../js/adminpanel.js"></script>
+</body>
+</html>

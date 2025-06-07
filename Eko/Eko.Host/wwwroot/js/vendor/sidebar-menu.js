@@ -65,13 +65,6 @@ class Poppers {
         this.init();
     }
 
-    init() {
-        slideHasSub.forEach((element) => {
-            this.subMenuPoppers.push(new PopperObject(element, element.lastElementChild));
-            this.closePoppers();
-        });
-    }
-
     togglePopper(target) {
         if (window.getComputedStyle(target).visibility === "hidden") {
             target.style.visibility = "visible";

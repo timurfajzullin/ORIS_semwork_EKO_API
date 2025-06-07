@@ -1,11 +1,9 @@
-﻿using System.Windows.Input;
-using Eko.Auth.Jwt;
+﻿using Eko.Auth.Jwt;
 using Eko.Common.Cqrs;
 using Eko.Database;
 using Eko.Database.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using ICommand = Eko.Common.Cqrs.ICommand;
 
 namespace Eko.Features;
 
@@ -19,7 +17,7 @@ public class CreatePersonCommand : ICommand<string>
 public class CreatePersonCommandHandler : ICommandHandler<CreatePersonCommand, string>
 {
     private readonly IEkoDbContext _dbContext;
-    private readonly ILogger _logger;
+    private readonly ILogger<CreatePersonCommandHandler> _logger;
     private readonly IJwtTokenHandler _JwtTokenHandler;
 
     public CreatePersonCommandHandler(IEkoDbContext dbContext, ILogger<CreatePersonCommandHandler> logger, IJwtTokenHandler JwtTokenHandler)
@@ -33,23 +31,31 @@ public class CreatePersonCommandHandler : ICommandHandler<CreatePersonCommand, s
     {
         if (await CheckPersonExists(command.email))
             throw new InvalidOperationException("User with this email already exists");
-
+        
         var nameParts = command.fullName.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-        var person = new Person
+        var person = new Database.Entities.Person
         {
             FirstName = nameParts[0],
             LastName = string.Join(" ", nameParts.Skip(1)),
             Email = command.email,
             Password = command.password
         };
+        var profile = new Profile
+        {
+            Id = person.Id,
+            Name = person.FirstName + " " + person.LastName,
+            Email = command.email,
+        };
 
         await CreatePerson(person);
+        await CreateProfile(profile);
+        _logger.LogInformation($"Зарегистрировался новый клиент {command.fullName} {command.email}");
         var jwt = await _JwtTokenHandler.GenerateToken(person);
         return jwt;
     }
 
-    private async Task CreatePerson(Person person)
+    private async Task CreatePerson(Database.Entities.Person? person)
     {
         await _dbContext.Person.AddAsync(person);
         await _dbContext.SaveChangesAsync();
@@ -58,5 +64,11 @@ public class CreatePersonCommandHandler : ICommandHandler<CreatePersonCommand, s
     private async Task<bool> CheckPersonExists(string email)
     {
         return await _dbContext.Person.AnyAsync(p => p.Email == email);
+    }
+
+    private async Task CreateProfile(Profile profile)
+    {
+        await _dbContext.Profile.AddAsync(profile);
+        await _dbContext.SaveChangesAsync();
     }
 }

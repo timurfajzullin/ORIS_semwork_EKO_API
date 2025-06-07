@@ -190,8 +190,7 @@
     });
     /* Mobile Menu Js */
     $(document).ready(function () {
-        var bdMenuWrap = $('.bd-mobile-menu-active > ul').clone();
-        var bdSideMenu = $('.bd-offcanvas-menu nav');
+        // var bdSideMenu = $('.bd-offcanvas-menu nav');
         bdSideMenu.append(bdMenuWrap);
         if ($(bdSideMenu).find('.submenu, .mega-menu').length != 0) {
             $(bdSideMenu).find('.submenu, .mega-menu').parent().append('<button class="bd-menu-close"><i class="ri-arrow-right-s-line"></i></button>');
@@ -206,7 +205,7 @@
                 $('.bd-offcanvas-menu nav > ul > li> ul > li.active').removeClass('active').children('.submenu, .mega-menu').slideUp();
                 /* Open the clicked submenu */
                 $this.addClass('active').children('.submenu, .mega-menu').slideDown();
-                /* Close the sibling submenus */
+                /* Close thePoppers  sibling submenus */
                 $siblings.removeClass('active').children('.submenu, .mega-menu').slideUp();
             } else {
                 /* Close the clicked submenu */

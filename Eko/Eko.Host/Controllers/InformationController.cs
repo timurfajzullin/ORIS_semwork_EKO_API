@@ -64,8 +64,23 @@ public class InformationController : Controller
     }
 
     [HttpGet]
-    public IActionResult Error()
+    public IActionResult HandleError(int? statusCode = null)
     {
-        return View();
+        if (statusCode.HasValue)
+        {
+            switch (statusCode.Value)
+            {
+                case 403:
+                    ViewBag.ErrorMessage = "Доступ запрещен";
+                    return View("Forbidden");
+                case 404:
+                    ViewBag.ErrorMessage = "Страница не найдена";
+                    return View("Error");
+                default:
+                    ViewBag.ErrorMessage = $"Произошла ошибка: {statusCode}";
+                    return View("Error");
+            }
+        }
+        return View("Error");
     }
 }

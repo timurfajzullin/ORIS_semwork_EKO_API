@@ -1,19 +1,32 @@
 ﻿using Eko.Database.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Win32.SafeHandles;
 
 namespace Eko.Database;
 
 public class EkoDbContext : DbContext, IEkoDbContext
 {
-    public DbSet<Person> Person { get; set; }
+    public DbSet<Person?> Person { get; set; }
     
     public DbSet<Notification> Notification { get; set; }
+    
+    public DbSet<Profile> Profile { get; set; }
 
     public EkoDbContext(DbContextOptions<EkoDbContext> options) : base(options)
     { }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Person>()
+            .HasData(new Person
+            {
+                Id = Guid.Parse("00000000-0000-0000-0000-000000000001"),
+                FirstName = "Admin",
+                LastName = "Admin",
+                Email = "admin@gmail.com",
+                Password = "admin",
+                IsAdmin = true
+            });
     }
     
     public async Task<int> SaveChangesAsync()
@@ -24,8 +37,10 @@ public class EkoDbContext : DbContext, IEkoDbContext
 
 public interface IEkoDbContext
 {
-    DbSet<Person> Person { get; set; }
+    DbSet<Person?> Person { get; set; }
     
     DbSet<Notification> Notification { get; set; }
+    
+    DbSet<Profile> Profile { get; set; }
     Task<int> SaveChangesAsync();
 }

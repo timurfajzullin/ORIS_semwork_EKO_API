@@ -3,14 +3,18 @@ using System.Security.Claims;
 using System.Text;
 using Eko.Database.Entities;
 using Microsoft.IdentityModel.Tokens;
-
 namespace Eko.Auth.Jwt;
 
 public class JwtTokenHandler : IJwtTokenHandler
 {
-    public async Task<string> GenerateToken(Person person)
+    public async Task<string> GenerateToken(Person? person)
     {
-        var claims = new List<Claim> {new Claim(ClaimsIdentity.DefaultNameClaimType, person.Email)};
+        var claims = new List<Claim>
+        {
+            new Claim(ClaimsIdentity.DefaultNameClaimType, person.Email),
+            new Claim(ClaimTypes.Role, person.IsAdmin ? Policy.Admin : Policy.AdminOrUser)
+        };
+        
         
         var signingCredentials = new SigningCredentials(
             new SymmetricSecurityKey(Encoding.UTF8.GetBytes(JwtOptions.SecurityKey)),
@@ -30,5 +34,5 @@ public class JwtTokenHandler : IJwtTokenHandler
 
 public interface IJwtTokenHandler
 {
-    public Task<string> GenerateToken(Person person);
+    public Task<string> GenerateToken(Person? person);
 }

@@ -422,6 +422,19 @@
           }
         }
       },
+      "Microsoft.OpenApi/1.6.23": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "MimeKit/4.7.1": {
         "type": "package",
         "dependencies": {
@@ -473,6 +486,25 @@
             "related": ".xml"
           }
         }
+      },
+      "Swashbuckle.AspNetCore.Swagger/8.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.23"
+        },
+        "compile": {
+          "lib/net9.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "System.Buffers/4.6.0": {
         "type": "package",
@@ -584,6 +616,7 @@
         "dependencies": {
           "Eko.Database": "1.0.0",
           "MailKit": "4.1.0",
+          "Microsoft.Extensions.Options": "9.0.1",
           "MimeKit": "4.7.1"
         },
         "compile": {
@@ -1224,6 +1257,21 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
+    "Microsoft.OpenApi/1.6.23": {
+      "sha512": "tZ1I0KXnn98CWuV8cpI247A17jaY+ILS9vvF7yhI0uPPEqF4P1d7BWL5Uwtel10w9NucllHB3nTkfYTAcHAh8g==",
+      "type": "package",
+      "path": "microsoft.openapi/1.6.23",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.6.23.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
     "MimeKit/4.7.1": {
       "sha512": "Qoj4aVvhX14A1FNvaJ33hzOP4VZI2j+Mr38I9wSGcjMq4BYDtWLJG89aJ9nRW2cNfH6Czjwyp7+Mh++xv3AZvg==",
       "type": "package",
@@ -1296,6 +1344,27 @@
         "npgsql.entityframeworkcore.postgresql.9.0.1.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/8.1.4": {
+      "sha512": "w83aYEBJYNa6ZYomziwZWwXhqQPLKhZH0n8MzqqNhF1ElCGBKm71kd7W6pgIr/yu0i6ymQzrZUFSZLdvH1kY5w==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/8.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net9.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net9.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net9.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swagger.8.1.4.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
       ]
     },
     "System.Buffers/4.6.0": {
@@ -1463,8 +1532,8 @@
     "net9.0": [
       "Eko.Auth >= 1.0.0",
       "Eko.Common >= 1.0.0",
-      "Eko.Database >= 1.0.0",
-      "Microsoft.AspNetCore.Http >= 2.3.0"
+      "Microsoft.AspNetCore.Http >= 2.3.0",
+      "Swashbuckle.AspNetCore.Swagger >= 8.1.4"
     ]
   },
   "packageFolders": {
@@ -1497,9 +1566,6 @@
             },
             "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Common\\Eko.Common.csproj": {
               "projectPath": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Common\\Eko.Common.csproj"
-            },
-            "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Database\\Eko.Database.csproj": {
-              "projectPath": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Database\\Eko.Database.csproj"
             }
           }
         }
@@ -1523,6 +1589,10 @@
           "Microsoft.AspNetCore.Http": {
             "target": "Package",
             "version": "[2.3.0, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
+            "target": "Package",
+            "version": "[8.1.4, )"
           }
         },
         "imports": [

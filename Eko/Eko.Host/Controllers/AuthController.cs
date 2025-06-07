@@ -43,8 +43,8 @@ public class AuthController : Controller
 
         Response.Cookies.Append("jwt", token, new CookieOptions
         {
-            HttpOnly = true,
-            Secure = true, 
+            HttpOnly = false,
+            Secure = true,
             SameSite = SameSiteMode.Strict,
             Expires = DateTime.UtcNow.AddMinutes(JwtOptions.ExpirationTime)
         });
@@ -64,12 +64,20 @@ public class AuthController : Controller
         
         Response.Cookies.Append("jwt", token, new CookieOptions
         {
-            HttpOnly = true,
+            HttpOnly = false,
             Secure = true, // Для HTTPS
             SameSite = SameSiteMode.Strict,
             Expires = DateTime.UtcNow.AddMinutes(JwtOptions.ExpirationTime)
         });
         
         return RedirectToAction("Index", "Home");
+    }
+
+    [HttpGet]
+    public async Task<RedirectToActionResult> Logout()
+    {
+        Response.Cookies.Delete("jwt");
+        _logger.LogInformation("User is logged out");
+        return RedirectToAction("SignIn", "Auth");
     }
 }

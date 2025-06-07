@@ -1,11 +1,17 @@
+using System.Net.Http.Headers;
 using System.Text;
+using Eko.Auth;
 using Eko.Auth.Jwt;
 using Eko.Common.Cqrs;
 using Eko.Common.EmailService;
 using Eko.Controllers;
 using Eko.Database;
+using Eko.Database.Entities;
 using Eko.Features;
+using Eko.Features.AdminPanel;
+using Eko.Features.AskDeepSeek;
 using Eko.Features.Notification;
+using Eko.Features.Person;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -19,57 +25,7 @@ builder.Services.AddDbContext<EkoDbContext>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("Db"));
 });
 
-builder.Services.AddAuthentication(options => 
-    {
-        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-        options.DefaultChallengeScheme = "CookieAndJwt";
-    })
-    .AddCookie("Cookies", options =>
-    {
-        options.LoginPath = "/Auth/SignUp";
-        options.AccessDeniedPath = "/Auth/SignUp"; 
-    })
-    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
-    {
-        options.TokenValidationParameters = new()
-        {
-            ValidateIssuer = true,
-            ValidIssuer = JwtOptions.Issuer,
-            ValidateAudience = true,
-            ValidAudience = JwtOptions.Audience,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(JwtOptions.SecurityKey))
-        };
-        options.Events = new JwtBearerEvents
-        {
-            OnMessageReceived = context =>
-            {
-                context.Token = context.Request.Cookies["jwt"];
-                return Task.CompletedTask;
-            },
-            OnChallenge = async context =>
-            {
-                if (!context.Response.HasStarted)
-                {
-                    context.HandleResponse();
-                    context.Response.Redirect("/Auth/SignUp");
-                }
-                await Task.CompletedTask;
-            }
-        };
-    });
-
-
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("Authenticated", policy =>
-    {
-        policy.RequireAuthenticatedUser();
-        policy.AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme);
-    });
-});
-
+builder.Services.AddAuth();
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -86,17 +42,33 @@ builder.Services.AddScoped<ICommandHandler<NotificationCommand>, NotificationCom
 builder.Services.AddScoped<ICommandHandler<CreatePersonCommand, string>, CreatePersonCommandHandler>();
 builder.Services.AddScoped<ICommandHandler<VerifyPersonCommand, string>, VerifyPersonCommandHandler>();
 builder.Services.AddScoped<IJwtTokenHandler, JwtTokenHandler>();
+builder.Services.AddScoped<IQueryHandler<GetPersonInfoQuery, Profile>, GetPersonInfoQueryHandler>();
+builder.Services.AddScoped<ICommandHandler<ChangePersonInfoCommand>, ChangePersonInfoCommandHandler>();
+builder.Services.AddScoped<IQueryHandler<GetRequestAiQuery, string>, GetRequestAiQueryHandler>();
+builder.Services.AddScoped<IQueryHandler<GetPersonsQuery, List<Person>>, GetPersonsQueryHandler>();
+builder.Services.AddScoped<ICommandHandler<DeletePersonCommand>, DeletePersonCommandHandler>();
+builder.Services.AddScoped<ICommandHandler<RegisterPersonCommand>, RegisterPersonCommandHandler>();
+builder.Services.AddScoped<IQueryHandler<GetProfileQuery, Profile>, GetProfileQueryHandler>();
+builder.Services.AddScoped<ICommandHandler<UpdateProfileCommand>, UpdateProfileCommandHandler>();
+builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient("DeepSeek", client =>
+{
+    client.BaseAddress = new Uri("https://api.deepseek.com/v1/");
+    client.DefaultRequestHeaders.Accept.Add(
+        new MediaTypeWithQualityHeaderValue("application/json"));
+});
 
 var app = builder.Build();
 
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseStatusCodePagesWithReExecute("/Information/HandleError", "?statusCode={0}");
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
