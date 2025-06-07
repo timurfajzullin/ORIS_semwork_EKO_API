@@ -85,11 +85,6 @@ public class AuthController : Controller
                 Expires = DateTime.UtcNow.AddMinutes(JwtOptions.ExpirationTime)
             });
         
-            if (Request.Headers["Accept"] == "application/json")
-            {
-                return Json(new { success = true });
-            }
-        
             return RedirectToAction("Index", "Home");
         }
         catch (InvalidOperationException)
