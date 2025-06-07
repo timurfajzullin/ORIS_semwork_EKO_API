@@ -29,48 +29,79 @@ public class AuthController : Controller
     }
 
     [HttpPost]
-    public async Task<RedirectToActionResult> Register([FromForm] string name,
+    public async Task<IActionResult> Register([FromForm] string name,
         [FromForm] string email, 
         [FromForm] string password,
         [FromServices] ICommandHandler<CreatePersonCommand, string> handler)
     {
-        var token = await handler.Execute(new CreatePersonCommand
+        try
         {
-            fullName = name,
-            email = email,
-            password = password
-        });
+            var token = await handler.Execute(new CreatePersonCommand
+            {
+                fullName = name,
+                email = email,
+                password = password
+            });
 
-        Response.Cookies.Append("jwt", token, new CookieOptions
+            Response.Cookies.Append("jwt", token, new CookieOptions
+            {
+                HttpOnly = false,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTime.UtcNow.AddMinutes(JwtOptions.ExpirationTime)
+            });
+
+            return RedirectToAction("Index", "Home");
+        }
+        catch (InvalidOperationException e)
         {
-            HttpOnly = false,
-            Secure = true,
-            SameSite = SameSiteMode.Strict,
-            Expires = DateTime.UtcNow.AddMinutes(JwtOptions.ExpirationTime)
-        });
-
-        return RedirectToAction("Index", "Home");
+            if (Request.Headers["Accept"] == "application/json")
+            {
+                return Json(new { error = "Пользователь с таким email уже существует" });
+            }
+        
+            TempData["ErrorMessage"] = "Пользователь с таким email уже существует";
+            return RedirectToAction("Login");
+        }
     }
 
     [HttpPost]
-    public async Task<RedirectToActionResult> Login([FromForm] string email, [FromForm] string password,
+    public async Task<IActionResult> Login([FromForm] string email, [FromForm] string password,
         [FromServices] ICommandHandler<VerifyPersonCommand, string> handler)
     {
-        var token = await handler.Execute(new VerifyPersonCommand
+        try
         {
-            Email = email,
-            Password = password
-        });
+            var token = await handler.Execute(new VerifyPersonCommand
+            {
+                Email = email,
+                Password = password
+            });
         
-        Response.Cookies.Append("jwt", token, new CookieOptions
+            Response.Cookies.Append("jwt", token, new CookieOptions
+            {
+                HttpOnly = false,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTime.UtcNow.AddMinutes(JwtOptions.ExpirationTime)
+            });
+        
+            if (Request.Headers["Accept"] == "application/json")
+            {
+                return Json(new { success = true });
+            }
+        
+            return RedirectToAction("Index", "Home");
+        }
+        catch (InvalidOperationException)
         {
-            HttpOnly = false,
-            Secure = true, // Для HTTPS
-            SameSite = SameSiteMode.Strict,
-            Expires = DateTime.UtcNow.AddMinutes(JwtOptions.ExpirationTime)
-        });
+            if (Request.Headers["Accept"] == "application/json")
+            {
+                return Json(new { error = "Неверный email или пароль" });
+            }
         
-        return RedirectToAction("Index", "Home");
+            TempData["ErrorMessage"] = "Неверный email или пароль";
+            return RedirectToAction("Login");
+        }
     }
 
     [HttpGet]

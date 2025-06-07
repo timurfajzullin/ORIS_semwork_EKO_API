@@ -143,6 +143,35 @@
     <script src="/js/plugins/typed.js"></script>
     <script src="/js/main.js"></script>
     <script type="module" src="/js/forALL.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const formData = new FormData(this);
+
+            try {
+                const response = await fetch('/Auth/Register', {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.redirected) {
+                    window.location.href = response.url;
+                } else {
+                    const result = await response.json();
+                    if (result.error) {
+                        alert(result.error);
+                    }
+                }
+            } catch (error) {
+                alert('Произошла ошибка при авторизации');
+                console.error(error);
+            }
+        });
+    </script>
 </body>
 
 </html>
