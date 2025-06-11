@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eko.Host")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55649c28642772d938fc6d766daa3fcf8db19e5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7bbbcf6b5616d493270f15fe1fda99c298052f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eko.Host")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eko.Host")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

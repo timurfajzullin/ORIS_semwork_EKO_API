@@ -8,7 +8,6 @@ namespace Eko.Controllers;
 
 [Controller]
 [Route("Dashboard/[action]")]
-[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = Policy.AdminOrUser)]
 public class DashboardController : Controller
 {
     [HttpGet]
@@ -35,12 +34,14 @@ public class DashboardController : Controller
         return View();
     }
     
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = Policy.AdminOrUser)]
     [HttpGet]
     public IActionResult Profile()
     {
         return View();
     }
 
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = Policy.AdminOrUser)]
     [HttpGet]
     public IActionResult ProfileEdit()
     {

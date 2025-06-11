@@ -40,14 +40,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitProj/ORIS_semwork_EKO_API/Eko/Eko.Host/Views/Blog/Blog.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/GitProj/ORIS_semwork_EKO_API/Eko/Eko.Host/Views/Blog/BlogDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/GitProj/ORIS_semwork_EKO_API/Eko/Eko.Host/Views/Dashboard/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,20 +72,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhdG9yc1xFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitProj/ORIS_semwork_EKO_API/Eko/Eko.Host/Views/Generators/Image.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhdG9yc1xJbWFnZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/GitProj/ORIS_semwork_EKO_API/Eko/Eko.Host/Views/Generators/Text.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhdG9yc1xUZXh0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/GitProj/ORIS_semwork_EKO_API/Eko/Eko.Host/Views/Generators/Video.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhdG9yc1xWaWRlby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/GitProj/ORIS_semwork_EKO_API/Eko/Eko.Host/Views/Generators/Website.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhdG9yc1xXZWJzaXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitProj/ORIS_semwork_EKO_API/Eko/Eko.Host/Views/Home/ContactUs.cshtml]

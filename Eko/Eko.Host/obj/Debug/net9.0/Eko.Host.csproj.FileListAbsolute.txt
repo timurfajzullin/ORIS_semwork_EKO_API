@@ -197,4 +197,11 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Swashbuckle.AspNet
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\Eko.Host.MvcApplicationPartsAssemblyInfo.cs
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\i4gg910tb9-xugq0rnqx0.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\657yqk0rrf-k0vdrv3o7s.gz
-D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\b6zai63n9q-8x3vepzvhb.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\b6zai63n9q-z954m8mdwz.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\lq02yjpt2l-gugiihjxkq.gz

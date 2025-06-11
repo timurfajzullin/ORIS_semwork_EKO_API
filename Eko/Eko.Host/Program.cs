@@ -2,6 +2,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using Eko.Auth;
 using Eko.Auth.Jwt;
+using Eko.Common.Ai;
 using Eko.Common.Cqrs;
 using Eko.Common.EmailService;
 using Eko.Controllers;
@@ -50,6 +51,8 @@ builder.Services.AddScoped<ICommandHandler<DeletePersonCommand>, DeletePersonCom
 builder.Services.AddScoped<ICommandHandler<RegisterPersonCommand>, RegisterPersonCommandHandler>();
 builder.Services.AddScoped<IQueryHandler<GetProfileQuery, Profile>, GetProfileQueryHandler>();
 builder.Services.AddScoped<ICommandHandler<UpdateProfileCommand>, UpdateProfileCommandHandler>();
+builder.Services.AddScoped<AiRequest>();
+builder.Services.AddScoped<IQueryHandler<GetChatsItemsQuery, List<Chat>>, GetChatsItemsQueryHandler>();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient("DeepSeek", client =>
 {

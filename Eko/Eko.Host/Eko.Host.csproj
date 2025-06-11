@@ -74,6 +74,8 @@
       <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\jquery.slim.min.js" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\jquery.slim.min.map" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\LICENSE.txt" />
+      <_ContentIncludedByDefault Remove="Views\Blog\Blog.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Blog\BlogDetails.cshtml" />
     </ItemGroup>
 
     <ItemGroup>

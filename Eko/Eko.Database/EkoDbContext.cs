@@ -11,6 +11,8 @@ public class EkoDbContext : DbContext, IEkoDbContext
     public DbSet<Notification> Notification { get; set; }
     
     public DbSet<Profile> Profile { get; set; }
+    
+    public DbSet<Chat> Chat { get; set; }
 
     public EkoDbContext(DbContextOptions<EkoDbContext> options) : base(options)
     { }
@@ -27,6 +29,8 @@ public class EkoDbContext : DbContext, IEkoDbContext
                 Password = "admin",
                 IsAdmin = true
             });
+        
+        modelBuilder.Entity<Chat>().Property(x => x.Id).HasColumnType("uuid");
     }
     
     public async Task<int> SaveChangesAsync()
@@ -42,5 +46,7 @@ public interface IEkoDbContext
     DbSet<Notification> Notification { get; set; }
     
     DbSet<Profile> Profile { get; set; }
+    
+    DbSet<Chat> Chat { get; set; }
     Task<int> SaveChangesAsync();
 }

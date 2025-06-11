@@ -357,6 +357,10 @@
       "PackagePath": "staticwebassets\\js\\adminpanel.js"
     },
     {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\aiText.js",
+      "PackagePath": "staticwebassets\\js\\aiText.js"
+    },
+    {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\fetch.js",
       "PackagePath": "staticwebassets\\js\\fetch.js"
     },

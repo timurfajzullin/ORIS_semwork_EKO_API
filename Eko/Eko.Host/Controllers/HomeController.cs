@@ -17,14 +17,14 @@ public class HomeController : Controller
         return View();
     }
 
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = Policy.AdminOrUser)]
+    // [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = Policy.AdminOrUser)]
     [HttpGet("[action]")]
     public IActionResult ContactUs()
     {
         return View();
     }
 
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    // [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [HttpPost("[action]")]
     public async Task<RedirectToActionResult> ContactUsPost(
         [FromForm]string name,
