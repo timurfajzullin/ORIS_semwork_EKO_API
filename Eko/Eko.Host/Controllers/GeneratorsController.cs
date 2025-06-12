@@ -10,7 +10,7 @@ namespace Eko.Controllers;
 
 [Controller]
 [Route("[controller]/[action]")]
-// [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = Policy.AdminOrUser)]
+[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = Policy.AdminOrUser)]
 public class GeneratorsController : Controller
 {
     private readonly ILogger<GeneratorsController> _logger;
