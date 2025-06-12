@@ -361,6 +361,10 @@
       "PackagePath": "staticwebassets\\js\\aiText.js"
     },
     {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\checkplan.js",
+      "PackagePath": "staticwebassets\\js\\checkplan.js"
+    },
+    {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\fetch.js",
       "PackagePath": "staticwebassets\\js\\fetch.js"
     },
@@ -403,6 +407,10 @@
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\wow.js",
       "PackagePath": "staticwebassets\\js\\plugins\\wow.js"
+    },
+    {
+      "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\pricing.js",
+      "PackagePath": "staticwebassets\\js\\pricing.js"
     },
     {
       "Id": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\profile.js",

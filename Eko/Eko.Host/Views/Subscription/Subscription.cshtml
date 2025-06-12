@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тарифный план</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .dropdown {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        .dropdown-select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .dropdown-select:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+        
+        .subscribe-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+        
+        .subscribe-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Тарифный план</h1>
+    <div class="dropdown">
+        <select class="dropdown-select">
+            <option value="1">Basic</option>
+            <option value="2">Pro</option>
+            <option value="3">Business</option>
+        </select>
+    </div>
+    <button class="subscribe-btn">Подписаться</button>
+</div>
+</body>
+<script>
+
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const dropdown = document.querySelector('.dropdown-select');
+        const subscribeBtn = document.querySelector('.subscribe-btn');
+
+        // Функция для получения значения куки по имени
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+        }
+
+        // Проверяем куки при загрузке страницы
+        const currentPlan = getCookie('plan');
+        if (currentPlan) {
+            dropdown.value = currentPlan;
+            checkPlan();
+        }
+
+        // Проверяем при изменении выбора
+        dropdown.addEventListener('change', checkPlan);
+
+        // Обработчик нажатия на кнопку
+        subscribeBtn.addEventListener('click', async function() {
+            const selectedPlan = dropdown.value;
+            console.log("Selected plan:", selectedPlan);
+            try {
+                const email = window.userEmail || localStorage.getItem("emailAddress") || "";
+                const response = await fetch('/Subscription/ChangePlan', {
+                    method: 'POST',
+                    body: `plan=${selectedPlan}`,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'emailAddress': email || ''
+                    }
+                });
+
+                if (response.redirected) {
+                    // Если сервер вернул редирект, переходим на новую страницу
+                    window.location.href = response.url;
+                } else if (response.ok) {
+                    // Если сервер вернул JSON (если вдруг изменили логику)
+                    const result = await response.json();
+                    document.cookie = `plan=${result.plan}; path=/`;
+                    checkPlan();
+                    alert('Тарифный план успешно изменен!');
+                } else {
+                    throw new Error('Ошибка сервера');
+                }
+            } catch (error) {
+                console.error('Ошибка:', error);
+                alert('Ошибка: ' + error.message);
+            }
+        });
+
+        function checkPlan() {
+            const selectedValue = dropdown.value;
+            const cookiePlan = getCookie('plan');
+
+            if (cookiePlan && cookiePlan === selectedValue) {
+                subscribeBtn.disabled = true;
+                subscribeBtn.textContent = 'Такой план уже имеется';
+                subscribeBtn.style.cursor = 'not-allowed';
+                subscribeBtn.style.opacity = '0.7';
+            } else {
+                subscribeBtn.disabled = false;
+                subscribeBtn.textContent = 'Подписаться';
+                subscribeBtn.style.cursor = 'pointer';
+                subscribeBtn.style.opacity = '1';
+            }
+        }
+    });
+
+</script>
+</html>

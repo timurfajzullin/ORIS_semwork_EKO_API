@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eko.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7bbbcf6b5616d493270f15fe1fda99c298052f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43c130236392b979881e7358314cd7fa038358fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eko.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eko.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

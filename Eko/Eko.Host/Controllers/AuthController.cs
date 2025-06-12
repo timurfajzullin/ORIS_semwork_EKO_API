@@ -1,5 +1,6 @@
 ﻿using Eko.Auth.Jwt;
 using Eko.Common.Cqrs;
+using Eko.Database;
 using Eko.Features;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,10 +11,12 @@ namespace Eko.Controllers;
 public class AuthController : Controller
 {
     private readonly ILogger<AuthController> _logger;
+    private readonly IEkoDbContext _context;
     
-    public AuthController(ILogger<AuthController> logger)
+    public AuthController(ILogger<AuthController> logger, IEkoDbContext context)
     {
         _logger = logger;
+        _context = context;
     }
     
     [HttpGet]
@@ -50,6 +53,9 @@ public class AuthController : Controller
                 SameSite = SameSiteMode.Strict,
                 Expires = DateTime.UtcNow.AddMinutes(JwtOptions.ExpirationTime)
             });
+            
+            var personPlan = _context.Person.FirstOrDefault(x => x.Email == email).Plan;
+            Response.Cookies.Append("plan", personPlan.ToString());
 
             return RedirectToAction("Index", "Home");
         }
@@ -84,7 +90,10 @@ public class AuthController : Controller
                 SameSite = SameSiteMode.Strict,
                 Expires = DateTime.UtcNow.AddMinutes(JwtOptions.ExpirationTime)
             });
-        
+            
+            var personPlan = _context.Person.FirstOrDefault(x => x.Email == email).Plan;
+            Response.Cookies.Append("plan", personPlan.ToString());
+            
             return RedirectToAction("Index", "Home");
         }
         catch (InvalidOperationException)
@@ -103,6 +112,7 @@ public class AuthController : Controller
     public async Task<RedirectToActionResult> Logout()
     {
         Response.Cookies.Delete("jwt");
+        Response.Cookies.Delete("plan");
         _logger.LogInformation("User is logged out");
         return RedirectToAction("SignIn", "Auth");
     }

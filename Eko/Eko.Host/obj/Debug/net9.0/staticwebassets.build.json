@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6HansqqH/vYEpm3ktjQ+DSlLaIGvzsAeTwbVReZZW1k=",
+  "Hash": "CCKvM+bvBTQ2Zly/F128ZskKbeAZPjwawIgtUzJ1Ie0=",
   "Source": "Eko.Host",
   "BasePath": "_content/Eko.Host",
   "Mode": "Default",
@@ -206,12 +206,12 @@
       "OriginalItemSpec": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\prism.js"
     },
     {
-      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-14s4mjhs6h.gz",
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-f9fhi5ka8y.gz",
       "SourceId": "Eko.Host",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Eko.Host",
-      "RelativePath": "js/vendor/sidebar-menu#[.{fingerprint=14s4mjhs6h}]?.js.gz",
+      "RelativePath": "js/vendor/sidebar-menu#[.{fingerprint=f9fhi5ka8y}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -220,8 +220,8 @@
       "RelatedAsset": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\sidebar-menu.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "q439xka1on",
-      "Integrity": "5ha+OL7nEdTeI0e4eH5DldscfYChF5zz9XNZQfbWGtA=",
+      "Fingerprint": "rqraxuuof1",
+      "Integrity": "DXxuFC+xMwuN/fvuFXo46QcO/FOJQBltx6/ka49eES0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\sidebar-menu.js"
@@ -710,6 +710,27 @@
       "OriginalItemSpec": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\fetch.js"
     },
     {
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\lajsznszhn-ti0zb525iv.gz",
+      "SourceId": "Eko.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Eko.Host",
+      "RelativePath": "js/checkplan#[.{fingerprint=ti0zb525iv}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\checkplan.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "iy6eivhsvm",
+      "Integrity": "uljnH3qgk2AiXFBRFDby2qge3pOUffCb75tojy+dyQI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\checkplan.js"
+    },
+    {
       "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\lq02yjpt2l-gugiihjxkq.gz",
       "SourceId": "Eko.Host",
       "SourceType": "Discovered",
@@ -855,6 +876,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\plugins\\wow.js"
+    },
+    {
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\sel9xpc2tj-r10os0d2jv.gz",
+      "SourceId": "Eko.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Eko.Host",
+      "RelativePath": "js/pricing#[.{fingerprint=r10os0d2jv}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\pricing.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "eyhz6cje9x",
+      "Integrity": "pmul73F93ylH1ICQ5daTguuKK5ZwaPuJWvwQtOwYMfk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\pricing.js"
     },
     {
       "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\vmx82e72fk-a3leoke107.gz",
@@ -2852,6 +2894,27 @@
       "OriginalItemSpec": "wwwroot\\js\\aiText.js"
     },
     {
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\checkplan.js",
+      "SourceId": "Eko.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\",
+      "BasePath": "_content/Eko.Host",
+      "RelativePath": "js/checkplan#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ti0zb525iv",
+      "Integrity": "ZWw71ztMy5RlIeIPt91LZ5v0ZVkqKeIcsMhzCX/QVqw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\checkplan.js"
+    },
+    {
       "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\fetch.js",
       "SourceId": "Eko.Host",
       "SourceType": "Discovered",
@@ -3083,6 +3146,27 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\wow.js"
     },
     {
+      "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\pricing.js",
+      "SourceId": "Eko.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\",
+      "BasePath": "_content/Eko.Host",
+      "RelativePath": "js/pricing#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r10os0d2jv",
+      "Integrity": "PwJeyc26JWkWzCwXSy9GBa0gog6XZ68ihqwOQXj6nVU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pricing.js"
+    },
+    {
       "Identity": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\profile.js",
       "SourceId": "Eko.Host",
       "SourceType": "Discovered",
@@ -3286,8 +3370,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "14s4mjhs6h",
-      "Integrity": "UXl65OSh/hk+cCdDoPjL4NnLxis0dkCrDXN6Sx5YGIY=",
+      "Fingerprint": "f9fhi5ka8y",
+      "Integrity": "fVJlaHS7+DXLwkdR+NU8gGCEcY32Ebw5bkstV3gydfc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\vendor\\sidebar-menu.js"
@@ -15901,6 +15985,304 @@
       ]
     },
     {
+      "Route": "js/checkplan.js",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\lajsznszhn-ti0zb525iv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001107419712"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "902"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uljnH3qgk2AiXFBRFDby2qge3pOUffCb75tojy+dyQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 12:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZWw71ztMy5RlIeIPt91LZ5v0ZVkqKeIcsMhzCX/QVqw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWw71ztMy5RlIeIPt91LZ5v0ZVkqKeIcsMhzCX/QVqw="
+        }
+      ]
+    },
+    {
+      "Route": "js/checkplan.js",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\checkplan.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWw71ztMy5RlIeIPt91LZ5v0ZVkqKeIcsMhzCX/QVqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 12:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWw71ztMy5RlIeIPt91LZ5v0ZVkqKeIcsMhzCX/QVqw="
+        }
+      ]
+    },
+    {
+      "Route": "js/checkplan.js.gz",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\lajsznszhn-ti0zb525iv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "902"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uljnH3qgk2AiXFBRFDby2qge3pOUffCb75tojy+dyQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 12:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uljnH3qgk2AiXFBRFDby2qge3pOUffCb75tojy+dyQI="
+        }
+      ]
+    },
+    {
+      "Route": "js/checkplan.ti0zb525iv.js",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\lajsznszhn-ti0zb525iv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001107419712"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "902"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uljnH3qgk2AiXFBRFDby2qge3pOUffCb75tojy+dyQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 12:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZWw71ztMy5RlIeIPt91LZ5v0ZVkqKeIcsMhzCX/QVqw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ti0zb525iv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/checkplan.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWw71ztMy5RlIeIPt91LZ5v0ZVkqKeIcsMhzCX/QVqw="
+        }
+      ]
+    },
+    {
+      "Route": "js/checkplan.ti0zb525iv.js",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\checkplan.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWw71ztMy5RlIeIPt91LZ5v0ZVkqKeIcsMhzCX/QVqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 12:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ti0zb525iv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/checkplan.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWw71ztMy5RlIeIPt91LZ5v0ZVkqKeIcsMhzCX/QVqw="
+        }
+      ]
+    },
+    {
+      "Route": "js/checkplan.ti0zb525iv.js.gz",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\lajsznszhn-ti0zb525iv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "902"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uljnH3qgk2AiXFBRFDby2qge3pOUffCb75tojy+dyQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 12:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ti0zb525iv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/checkplan.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uljnH3qgk2AiXFBRFDby2qge3pOUffCb75tojy+dyQI="
+        }
+      ]
+    },
+    {
       "Route": "js/fetch.js",
       "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\kvfjve87ah-tggwwmzkwp.gz",
       "Selectors": [
@@ -19179,6 +19561,304 @@
       ]
     },
     {
+      "Route": "js/pricing.js",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\sel9xpc2tj-r10os0d2jv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000927643785"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pmul73F93ylH1ICQ5daTguuKK5ZwaPuJWvwQtOwYMfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 11:47:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PwJeyc26JWkWzCwXSy9GBa0gog6XZ68ihqwOQXj6nVU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PwJeyc26JWkWzCwXSy9GBa0gog6XZ68ihqwOQXj6nVU="
+        }
+      ]
+    },
+    {
+      "Route": "js/pricing.js",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\pricing.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PwJeyc26JWkWzCwXSy9GBa0gog6XZ68ihqwOQXj6nVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 11:47:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PwJeyc26JWkWzCwXSy9GBa0gog6XZ68ihqwOQXj6nVU="
+        }
+      ]
+    },
+    {
+      "Route": "js/pricing.js.gz",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\sel9xpc2tj-r10os0d2jv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pmul73F93ylH1ICQ5daTguuKK5ZwaPuJWvwQtOwYMfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 11:47:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pmul73F93ylH1ICQ5daTguuKK5ZwaPuJWvwQtOwYMfk="
+        }
+      ]
+    },
+    {
+      "Route": "js/pricing.r10os0d2jv.js",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\sel9xpc2tj-r10os0d2jv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000927643785"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pmul73F93ylH1ICQ5daTguuKK5ZwaPuJWvwQtOwYMfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 11:47:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PwJeyc26JWkWzCwXSy9GBa0gog6XZ68ihqwOQXj6nVU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r10os0d2jv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pricing.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PwJeyc26JWkWzCwXSy9GBa0gog6XZ68ihqwOQXj6nVU="
+        }
+      ]
+    },
+    {
+      "Route": "js/pricing.r10os0d2jv.js",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\pricing.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PwJeyc26JWkWzCwXSy9GBa0gog6XZ68ihqwOQXj6nVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 11:47:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r10os0d2jv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pricing.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PwJeyc26JWkWzCwXSy9GBa0gog6XZ68ihqwOQXj6nVU="
+        }
+      ]
+    },
+    {
+      "Route": "js/pricing.r10os0d2jv.js.gz",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\sel9xpc2tj-r10os0d2jv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pmul73F93ylH1ICQ5daTguuKK5ZwaPuJWvwQtOwYMfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 11:47:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r10os0d2jv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pricing.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pmul73F93ylH1ICQ5daTguuKK5ZwaPuJWvwQtOwYMfk="
+        }
+      ]
+    },
+    {
       "Route": "js/profile.g17zi51ny5.js",
       "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\gl4d3my6ky-g17zi51ny5.gz",
       "Selectors": [
@@ -21861,13 +22541,13 @@
       ]
     },
     {
-      "Route": "js/vendor/sidebar-menu.14s4mjhs6h.js",
-      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-14s4mjhs6h.gz",
+      "Route": "js/vendor/sidebar-menu.f9fhi5ka8y.js",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-f9fhi5ka8y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000503018109"
+          "Quality": "0.000502765209"
         }
       ],
       "ResponseHeaders": [
@@ -21877,15 +22557,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1987"
+          "Value": "1988"
         },
         {
           "Name": "ETag",
-          "Value": "\"5ha+OL7nEdTeI0e4eH5DldscfYChF5zz9XNZQfbWGtA=\""
+          "Value": "\"DXxuFC+xMwuN/fvuFXo46QcO/FOJQBltx6/ka49eES0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Jun 2025 19:17:01 GMT"
+          "Value": "Thu, 12 Jun 2025 12:09:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21905,13 +22585,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UXl65OSh/hk+cCdDoPjL4NnLxis0dkCrDXN6Sx5YGIY=\""
+          "Value": "W/\"fVJlaHS7+DXLwkdR+NU8gGCEcY32Ebw5bkstV3gydfc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "14s4mjhs6h"
+          "Value": "f9fhi5ka8y"
         },
         {
           "Name": "label",
@@ -21919,12 +22599,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UXl65OSh/hk+cCdDoPjL4NnLxis0dkCrDXN6Sx5YGIY="
+          "Value": "sha256-fVJlaHS7+DXLwkdR+NU8gGCEcY32Ebw5bkstV3gydfc="
         }
       ]
     },
     {
-      "Route": "js/vendor/sidebar-menu.14s4mjhs6h.js",
+      "Route": "js/vendor/sidebar-menu.f9fhi5ka8y.js",
       "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\wwwroot\\js\\vendor\\sidebar-menu.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21934,7 +22614,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8918"
+          "Value": "8917"
         },
         {
           "Name": "Content-Type",
@@ -21942,11 +22622,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UXl65OSh/hk+cCdDoPjL4NnLxis0dkCrDXN6Sx5YGIY=\""
+          "Value": "\"fVJlaHS7+DXLwkdR+NU8gGCEcY32Ebw5bkstV3gydfc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Jun 2025 19:17:01 GMT"
+          "Value": "Thu, 12 Jun 2025 12:09:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21956,7 +22636,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "14s4mjhs6h"
+          "Value": "f9fhi5ka8y"
         },
         {
           "Name": "label",
@@ -21964,13 +22644,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UXl65OSh/hk+cCdDoPjL4NnLxis0dkCrDXN6Sx5YGIY="
+          "Value": "sha256-fVJlaHS7+DXLwkdR+NU8gGCEcY32Ebw5bkstV3gydfc="
         }
       ]
     },
     {
-      "Route": "js/vendor/sidebar-menu.14s4mjhs6h.js.gz",
-      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-14s4mjhs6h.gz",
+      "Route": "js/vendor/sidebar-menu.f9fhi5ka8y.js.gz",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-f9fhi5ka8y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21979,7 +22659,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1987"
+          "Value": "1988"
         },
         {
           "Name": "Content-Type",
@@ -21987,11 +22667,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5ha+OL7nEdTeI0e4eH5DldscfYChF5zz9XNZQfbWGtA=\""
+          "Value": "\"DXxuFC+xMwuN/fvuFXo46QcO/FOJQBltx6/ka49eES0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Jun 2025 19:17:01 GMT"
+          "Value": "Thu, 12 Jun 2025 12:09:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22009,7 +22689,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "14s4mjhs6h"
+          "Value": "f9fhi5ka8y"
         },
         {
           "Name": "label",
@@ -22017,18 +22697,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5ha+OL7nEdTeI0e4eH5DldscfYChF5zz9XNZQfbWGtA="
+          "Value": "sha256-DXxuFC+xMwuN/fvuFXo46QcO/FOJQBltx6/ka49eES0="
         }
       ]
     },
     {
       "Route": "js/vendor/sidebar-menu.js",
-      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-14s4mjhs6h.gz",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-f9fhi5ka8y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000503018109"
+          "Quality": "0.000502765209"
         }
       ],
       "ResponseHeaders": [
@@ -22038,15 +22718,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1987"
+          "Value": "1988"
         },
         {
           "Name": "ETag",
-          "Value": "\"5ha+OL7nEdTeI0e4eH5DldscfYChF5zz9XNZQfbWGtA=\""
+          "Value": "\"DXxuFC+xMwuN/fvuFXo46QcO/FOJQBltx6/ka49eES0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Jun 2025 19:17:01 GMT"
+          "Value": "Thu, 12 Jun 2025 12:09:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22066,13 +22746,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UXl65OSh/hk+cCdDoPjL4NnLxis0dkCrDXN6Sx5YGIY=\""
+          "Value": "W/\"fVJlaHS7+DXLwkdR+NU8gGCEcY32Ebw5bkstV3gydfc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UXl65OSh/hk+cCdDoPjL4NnLxis0dkCrDXN6Sx5YGIY="
+          "Value": "sha256-fVJlaHS7+DXLwkdR+NU8gGCEcY32Ebw5bkstV3gydfc="
         }
       ]
     },
@@ -22087,7 +22767,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8918"
+          "Value": "8917"
         },
         {
           "Name": "Content-Type",
@@ -22095,11 +22775,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UXl65OSh/hk+cCdDoPjL4NnLxis0dkCrDXN6Sx5YGIY=\""
+          "Value": "\"fVJlaHS7+DXLwkdR+NU8gGCEcY32Ebw5bkstV3gydfc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Jun 2025 19:17:01 GMT"
+          "Value": "Thu, 12 Jun 2025 12:09:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22109,13 +22789,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UXl65OSh/hk+cCdDoPjL4NnLxis0dkCrDXN6Sx5YGIY="
+          "Value": "sha256-fVJlaHS7+DXLwkdR+NU8gGCEcY32Ebw5bkstV3gydfc="
         }
       ]
     },
     {
       "Route": "js/vendor/sidebar-menu.js.gz",
-      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-14s4mjhs6h.gz",
+      "AssetFile": "D:\\GitProj\\ORIS_semwork_EKO_API\\Eko\\Eko.Host\\obj\\Debug\\net9.0\\compressed\\7u19polb67-f9fhi5ka8y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22124,7 +22804,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1987"
+          "Value": "1988"
         },
         {
           "Name": "Content-Type",
@@ -22132,11 +22812,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5ha+OL7nEdTeI0e4eH5DldscfYChF5zz9XNZQfbWGtA=\""
+          "Value": "\"DXxuFC+xMwuN/fvuFXo46QcO/FOJQBltx6/ka49eES0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Jun 2025 19:17:01 GMT"
+          "Value": "Thu, 12 Jun 2025 12:09:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22154,7 +22834,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5ha+OL7nEdTeI0e4eH5DldscfYChF5zz9XNZQfbWGtA="
+          "Value": "sha256-DXxuFC+xMwuN/fvuFXo46QcO/FOJQBltx6/ka49eES0="
         }
       ]
     },

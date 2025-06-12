@@ -9,4 +9,6 @@ public class Person
     public string Password { get; set; }
     
     public bool IsAdmin { get; set; } = false;
+
+    public int Plan { get; set; } = 1;
 }

@@ -189,7 +189,6 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\ierkfui
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\kvfjve87ah-tggwwmzkwp.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\gl4d3my6ky-g17zi51ny5.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\vmx82e72fk-a3leoke107.gz
-D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\7u19polb67-14s4mjhs6h.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.OpenApi.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -205,3 +204,6 @@ D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.Extensio
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\b6zai63n9q-z954m8mdwz.gz
 D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\lq02yjpt2l-gugiihjxkq.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\sel9xpc2tj-r10os0d2jv.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\lajsznszhn-ti0zb525iv.gz
+D:\GitProj\ORIS_semwork_EKO_API\Eko\Eko.Host\obj\Debug\net9.0\compressed\7u19polb67-f9fhi5ka8y.gz

@@ -62,7 +62,7 @@ class Poppers {
     subMenuPoppers = [];
 
     constructor() {
-        this.init();
+        this.init()
     }
 
     togglePopper(target) {
