@@ -13,3 +13,7 @@
 для доступа в админ панель нужно залогиниться как admin@gmail.com пароль admin
 при миграции в бд автоматом добавляется это поля
 и перейти на localhost:5252/AdminPanel/AdminPanel
+
+
+тз 
+https://docs.google.com/document/d/1Urkl-lQN89xTwbjc7ZPZ8oEw8Xf3U-Nhxs20znT4ztk/edit?tab=t.0
