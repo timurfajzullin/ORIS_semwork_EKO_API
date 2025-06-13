@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using System.Text.Json;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
 namespace Eko.Common.Ai;
@@ -9,12 +10,12 @@ public class AiRequest
     public readonly HttpClient _httpClient;
     public readonly ILogger<AiRequest> _logger;
 
-    public AiRequest(IHttpClientFactory httpClientFactory, ILogger<AiRequest> logger)
+    public AiRequest(IHttpClientFactory httpClientFactory, ILogger<AiRequest> logger, IConfiguration configuration)
     {
         _httpClient = httpClientFactory.CreateClient();
         _logger = logger;
         
-        _httpClient.BaseAddress = new Uri(AiOptions.BaseUrl);
+        _httpClient.BaseAddress = new Uri(configuration["Ollama:Url"]);
     }
 
     public async Task<string> GetResponse(string prompt)
