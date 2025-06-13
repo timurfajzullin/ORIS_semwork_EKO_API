@@ -10,8 +10,8 @@
 
 как развернуть ollama и закрузить модель deepseekR1
 ducker pull ollama/ollama
-cpu | docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
-gpu | docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+что бы запустить на cpu | docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+что бы запустить на gpu | docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 контейнер запускается по порту 11434|
 загрузка модели, я использовал модель deepseekR1 : 7b
 docker exec ollama ollama run deepseek-r1:7b
